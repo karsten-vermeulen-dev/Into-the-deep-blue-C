@@ -49,3 +49,40 @@ void main()
 	std::cout << "Thank you for using our booking system." << std::endl;
 	system("pause");
 }
+
+//OLD code
+
+//declare global constants for the seating arrangement array
+//const int ROW = 5;
+//const int COLUMN = 5;
+
+//create a multidimensional array to store a seating arrangement
+//set all initial values to false meaning all seats are available
+//short rowSeat, columnSeat;
+//char seating[ROW][COLUMN] = { { 'A', 'A', 'A', 'A' },
+//					   { 'A', 'A', 'A', 'A' },
+//					   { 'A', 'A', 'A', 'A' },
+//					   { 'A', 'A', 'A', 'A' } };
+//
+////user can enter their desired seat
+//cout << "Enter your desired row : ";
+//cin >> rowSeat;
+//cout << "Enter your desired column : ";
+//cin >> columnSeat;
+//
+////set desired seat to "reserved" and subtract 1 from each value because the array is zero-based
+//seating[rowSeat - 1][columnSeat - 1] = 'R';
+//
+////here we use a nested for-loop and an if-else statement to display the seating arrangement on screen
+////treat the loops and branching as a black box for now - we will return to this in upcoming lessons 
+//for (int i = 0; i < ROW; i++)
+//{
+//	for (int j = 0; j < COLUMN; j++)
+//	{
+//		if (seating[i][j] == false) std::cout << " A ";
+//		else std::cout << " R ";
+//	}
+//
+//	std::cout << std::endl;
+//
+//}
