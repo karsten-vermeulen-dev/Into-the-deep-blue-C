@@ -26,5 +26,8 @@
     <ClInclude Include="Algorithm5.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Algorithm1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
