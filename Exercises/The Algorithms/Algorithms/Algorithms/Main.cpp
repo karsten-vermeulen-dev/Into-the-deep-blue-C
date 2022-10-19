@@ -1,6 +1,4 @@
-#include "Algorithm1.h"
-#include "Algorithm2.h"
-#include "Algorithm5.h"
+#include "Algorithms.h"
 
 int main()
 {

@@ -142,9 +142,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Algorithm1.h" />
-    <ClInclude Include="Algorithm2.h" />
-    <ClInclude Include="Algorithm5.h" />
+    <ClInclude Include="Algorithms.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
