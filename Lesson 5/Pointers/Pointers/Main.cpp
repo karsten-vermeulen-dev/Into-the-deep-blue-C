@@ -86,6 +86,7 @@ void main()
 
 		std::cout << "Enemy name is " << enemyPtr->name << std::endl;
 		std::cout << "Enemy health is " << enemyPtr->health << "%" << std::endl;
+		std::cout << "======================================================" << std::endl;
 	}
 
 	system("pause");
