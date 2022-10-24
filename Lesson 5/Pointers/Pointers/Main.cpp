@@ -53,9 +53,11 @@ void main()
 	//Loop through the array of enemies and use a pointer variable to access the data
 	for (int i = 0; i < maxEnemies; i++)
 	{
+		Enemy* enemyPtr = &enemies[i];
+
 		std::cout << "This enemy is a ";
 
-		switch (enemies[i].enemyType)
+		switch (enemyPtr->enemyType)
 		{
 		case EnemyType::Dragon:
 		{
@@ -81,8 +83,9 @@ void main()
 			break;
 		}
 		}
-		std::cout << "Enemy name is " << enemies[i].name << std::endl;
-		std::cout << "Enemy health is " << enemies[i].health << "%" << std::endl;
+
+		std::cout << "Enemy name is " << enemyPtr->name << std::endl;
+		std::cout << "Enemy health is " << enemyPtr->health << "%" << std::endl;
 	}
 
 	system("pause");
