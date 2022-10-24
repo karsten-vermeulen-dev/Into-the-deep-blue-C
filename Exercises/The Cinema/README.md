@@ -1,4 +1,17 @@
-## Create a cinema seating arrangement
+## Cinema seating
+
+### Concepts you will improve on:
+
+- Use of basic variable types and constants
+- One and two-dimensional arrays
+- Basic input and output
+- Loops
+- Functions
+- Branching and switch statements
+- Enumerations
+- Error trapping
+
+### Create a cinema seating arrangement
 
 <b>1.</b> Create a single or multidimensional <i>char</i> array that will represent some form of seating arrangement within a cinema. <br>
 <b>2.</b> Initialize the entire array with <b>A</b> values which means <i>available</i> since all seating in the cinema is currently free. <br>
