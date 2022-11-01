@@ -147,15 +147,13 @@ void ProcessInput(int input)
 	system("pause");
 }
 
-int main()
+void main()
 {
-	int input = 0;
+	int input{ 0 };
 
 	while (input != (int)MenuItem::Exit)
 	{
 		input = DisplayMenu();
 		ProcessInput(input);
 	}
-
-	return 0;
 }
