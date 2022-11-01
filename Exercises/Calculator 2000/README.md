@@ -8,6 +8,7 @@
 - Functions
 - Branching and switch statements
 - Enumerations
+- References
 - Error trapping
 
 ### Create a calculator program
