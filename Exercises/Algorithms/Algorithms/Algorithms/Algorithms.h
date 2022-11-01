@@ -14,15 +14,14 @@ void Algorithm1()
 		return (number % 2 == 0);
 	};
 
-	//this will sort the deque to be 20, 30, 40, 50 10, 10, 10, 10
 	auto it = std::remove_if(numbers.begin(), numbers.end(),
 		[](int number) { return (number % 2 == 0); });
 
 	numbers.erase(it, numbers.end());
 
-	for (const auto& n : numbers)
+	for (const auto& number : numbers)
 	{
-		std::cout << n << ", ";
+		std::cout << number << ", ";
 	}
 }
 
