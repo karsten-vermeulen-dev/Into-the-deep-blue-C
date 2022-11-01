@@ -1,25 +1,21 @@
 #include <iostream>
 #include <string>
 
-//Function for adding the numbers
 int Add(int numberOne, int numberTwo)
 {
 	return numberOne + numberTwo;
 }
 
-//Function for subtracting one number from another
 int Subtract(int numberOne, int numberTwo)
 {
 	return numberOne - numberTwo;
 }
 
-//Function for multiplying two numbers
 int Multiply(int numberOne, int numberTwo)
 {
 	return numberOne * numberTwo;
 }
 
-//Function for dividing two numbers
 int Divide(int numberOne, int numberTwo)
 {
 	return numberOne / numberTwo;
