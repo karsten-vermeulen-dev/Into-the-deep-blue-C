@@ -33,7 +33,6 @@ void DisplaySeats()
 		std::cout << std::endl;
 	}
 
-	std::cout << "|" << std::endl;
 	std::cout << "#-----------------------------------#" << std::endl;
 }
 
@@ -43,13 +42,13 @@ void InputSeat(int& row, int& column)
 	{
 		std::cout << "Enter your desired row: ";
 		std::cin >> row;
-	} while (row < 0 || row > maxRows);
+	} while (row < 1 || row > maxRows);
 
 	do
 	{
 		std::cout << "Enter your desired column: ";
 		std::cin >> column;
-	} while (column < 0 || column > maxColumns);
+	} while (column < 1 || column > maxColumns);
 }
 
 void main()
@@ -65,7 +64,16 @@ void main()
 
 		InputSeat(row, column);
 
-		seats[row - 1][column - 1] = 'R';
+		if (seats[row - 1][column - 1] != 'R')
+		{
+			seats[row - 1][column - 1] = 'R';
+		}
+
+		else
+		{
+			std::cout << "That seat has already been reserved." << std::endl;
+			system("pause");
+		}
 
 		DisplaySeats();
 
