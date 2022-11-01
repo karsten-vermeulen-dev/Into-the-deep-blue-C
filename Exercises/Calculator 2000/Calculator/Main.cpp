@@ -62,98 +62,100 @@ int Power(int base, int exponent)
 	return result;
 }
 
-int main()
+int DisplayMenu()
 {
-	bool isAppRunning = true;
+	system("cls");
+	std::cout << "#=====================#" << std::endl;
+	std::cout << "|   CALCULATOR 2000   |" << std::endl;
+	std::cout << "#=====================#" << std::endl;
+	std::cout << "| 1. Add              |" << std::endl;
+	std::cout << "| 2. Subtract         |" << std::endl;
+	std::cout << "| 3. Multiply         |" << std::endl;
+	std::cout << "| 4. Divide           |" << std::endl;
+	std::cout << "| 5. Power            |" << std::endl;
+	std::cout << "| 6. Exit             |" << std::endl;
+	std::cout << "#=====================#" << std::endl << std::endl;
 
-	while (isAppRunning) 
+	int input;
+
+	do
 	{
-		system("cls");
-		std::cout << "#=======================#" << std::endl;
-		std::cout << "|      CALCULATOR       |" << std::endl;
-		std::cout << "#=======================#" << std::endl;
-		std::cout << "| 1. Add                |" << std::endl;
-		std::cout << "| 2. Subtract           |" << std::endl;
-		std::cout << "| 3. Multiply           |" << std::endl;
-		std::cout << "| 4. Divide             |" << std::endl;
-		std::cout << "| 5. Power              |" << std::endl;
-		std::cout << "| 6. Exit               |" << std::endl;
-		std::cout << "#=======================#" << std::endl;
+		std::cout << "Please enter an option: ";
+		std::cin >> input;
+	} while (input < (int)MenuItem::Add || input >(int)MenuItem::Exit);
 
-		int choice = 0;
-		std::cin >> choice;
+	return input;
+}
 
-		int result{ 0 };
-		int firstNumber{ 0 };
-		int secondNumber{ 0 };
+void InputNumbers(int& firstNumber, int& secondNumber)
+{
+	std::cout << "Enter the first number: ";
+	std::cin >> firstNumber;
 
-		if (choice == 1)
-		{
-			std::cout << "Please enter your first number: ";
-			std::cin >> firstNumber;
+	std::cout << "Enter the second number: ";
+	std::cin >> secondNumber;
+}
 
-			std::cout << "Please enter your second number: ";
-			std::cin >> secondNumber;
+void ProcessInput(int input)
+{
+	int firstNumber{ 0 }, secondNumber{ 0 };
 
-			result = Add(firstNumber, secondNumber);
-			std::cout << "The result is " << result << std::endl;
-			system("pause");
-		}
-
-		else if (choice == 2)
-		{
-			std::cout << "Please enter your first number: ";
-			std::cin >> firstNumber;
-
-			std::cout << "Please enter your second number: ";
-			std::cin >> secondNumber;
-
-			result = Subtract(firstNumber, secondNumber);
-			std::cout << "The result is " << result << std::endl;
-			system("pause");
-		}
-
-		else if (choice == 3)
-		{
-			std::cout << "Please enter your first number: ";
-			std::cin >> firstNumber;
-
-			std::cout << "Please enter your second number: ";
-			std::cin >> secondNumber;
-
-			result = Multiply(firstNumber, secondNumber);
-			std::cout << "The result is " << result << std::endl;
-			system("pause");
-		}
-
-		else if (choice == 4)
-		{
-			std::cout << "Please enter your first number: ";
-			std::cin >> firstNumber;
-
-			std::cout << "Please enter your second number: ";
-			std::cin >> secondNumber;
-
-			if (secondNumber == 0)
-			{
-				std::cout << "Cannot divide by zero." << std::endl;
-			}
-
-			else
-			{
-				result = Divide(firstNumber, secondNumber);
-				std::cout << "The result is " << result << std::endl;
-			}
-			system("pause");
-		}
-
-		else if (choice == 6)
-		{
-			isAppRunning = false;
-		}
+	switch (input)
+	{
+	case (int)MenuItem::Add:
+	{
+		InputNumbers(firstNumber, secondNumber);
+		std::cout << "The result is: " << Add(firstNumber, secondNumber) << std::endl;
+		break;
 	}
 
-	std::cout << "Thanks for using the Calculator. Goodbye." << std::endl;
-	
+	case (int)MenuItem::Subtract:
+	{
+		InputNumbers(firstNumber, secondNumber);
+		std::cout << "The result is: " << Subtract(firstNumber, secondNumber) << std::endl;
+		break;
+	}
+
+	case (int)MenuItem::Multiply:
+	{
+		InputNumbers(firstNumber, secondNumber);
+		std::cout << "The result is: " << Multiply(firstNumber, secondNumber) << std::endl;
+		break;
+	}
+
+	case (int)MenuItem::Divide:
+	{
+		InputNumbers(firstNumber, secondNumber);
+		std::cout << "The result is: " << Divide(firstNumber, secondNumber) << std::endl;
+		break;
+	}
+
+	case (int)MenuItem::Power:
+	{
+		InputNumbers(firstNumber, secondNumber);
+		std::cout << "The result is: " << Power(firstNumber, secondNumber) << std::endl;
+		break;
+	}
+
+	default:
+	{
+		std::cout << "Goodbye!" << std::endl;
+		break;
+	}
+	};
+
+	system("pause");
+}
+
+int main()
+{
+	int input = 0;
+
+	while (input != (int)MenuItem::Exit)
+	{
+		input = DisplayMenu();
+		ProcessInput(input);
+	}
+
 	return 0;
 }
