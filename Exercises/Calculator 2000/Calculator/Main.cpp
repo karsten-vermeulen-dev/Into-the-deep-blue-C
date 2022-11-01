@@ -1,24 +1,43 @@
 #include <iostream>
 #include <string>
 
-int Add(int numberOne, int numberTwo)
+enum class MenuItem
 {
-	return numberOne + numberTwo;
+	Add = 1,
+	Subtract = 2,
+	Multiply = 3,
+	Divide = 4,
+	Power = 5,
+	Exit = 6
+};
+
+int Add(int firstNumber, int secondNumber)
+{
+	return firstNumber + secondNumber;
 }
 
-int Subtract(int numberOne, int numberTwo)
+int Subtract(int firstNumber, int secondNumber)
 {
-	return numberOne - numberTwo;
+	return firstNumber - secondNumber;
 }
 
-int Multiply(int numberOne, int numberTwo)
+int Multiply(int firstNumber, int secondNumber)
 {
-	return numberOne * numberTwo;
+	return firstNumber * secondNumber;
 }
 
-int Divide(int numberOne, int numberTwo)
+int Divide(int firstNumber, int secondNumber)
 {
-	return numberOne / numberTwo;
+	if (secondNumber != 0)
+	{
+		return firstNumber / secondNumber;
+	}
+
+	else
+	{
+		std::cout << "Cannot divide by zero." << std::endl;
+		return 0;
+	}
 }
 
 int main()
@@ -55,6 +74,7 @@ int main()
 
 			result = Add(firstNumber, secondNumber);
 			std::cout << "The result is " << result << std::endl;
+			system("pause");
 		}
 
 		else if (choice == 2)
@@ -67,6 +87,7 @@ int main()
 
 			result = Subtract(firstNumber, secondNumber);
 			std::cout << "The result is " << result << std::endl;
+			system("pause");
 		}
 
 		else if (choice == 3)
@@ -79,6 +100,7 @@ int main()
 
 			result = Multiply(firstNumber, secondNumber);
 			std::cout << "The result is " << result << std::endl;
+			system("pause");
 		}
 
 		else if (choice == 4)
@@ -99,6 +121,7 @@ int main()
 				result = Divide(firstNumber, secondNumber);
 				std::cout << "The result is " << result << std::endl;
 			}
+			system("pause");
 		}
 
 		else if (choice == 5)
@@ -108,6 +131,6 @@ int main()
 	}
 
 	std::cout << "Thanks for using the Calculator. Goodbye." << std::endl;
-	system("pause");
+	
 	return 0;
 }
