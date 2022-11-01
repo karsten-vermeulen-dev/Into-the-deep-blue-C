@@ -88,7 +88,7 @@ void Algorithm3()
 	}
 }
 
-void Algorithm5()
+void Algorithm4()
 {
 	std::string sentence = "Hello, how are you? I am fine!";
 
