@@ -4,11 +4,11 @@
 enum class MenuItem
 {
 	Add = 1,
-	Subtract = 2,
-	Multiply = 3,
-	Divide = 4,
-	Power = 5,
-	Exit = 6
+	Subtract,
+	Multiply,
+	Divide,
+	Power,
+	Exit
 };
 
 int Add(int firstNumber, int secondNumber)
@@ -40,6 +40,28 @@ int Divide(int firstNumber, int secondNumber)
 	}
 }
 
+int Power(int base, int exponent)
+{
+	int result = base;
+
+	if (exponent == 0)
+	{
+		result = 1;
+	}
+
+	else if (exponent == 1)
+	{
+		result = base;
+	}
+
+	else
+	{
+		result *= Power(base, exponent - 1);
+	}
+
+	return result;
+}
+
 int main()
 {
 	bool isAppRunning = true;
@@ -54,7 +76,8 @@ int main()
 		std::cout << "| 2. Subtract           |" << std::endl;
 		std::cout << "| 3. Multiply           |" << std::endl;
 		std::cout << "| 4. Divide             |" << std::endl;
-		std::cout << "| 5. Exit               |" << std::endl;
+		std::cout << "| 5. Power              |" << std::endl;
+		std::cout << "| 6. Exit               |" << std::endl;
 		std::cout << "#=======================#" << std::endl;
 
 		int choice = 0;
@@ -124,7 +147,7 @@ int main()
 			system("pause");
 		}
 
-		else if (choice == 5)
+		else if (choice == 6)
 		{
 			isAppRunning = false;
 		}
