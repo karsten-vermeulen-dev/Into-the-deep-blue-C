@@ -27,7 +27,7 @@ void Algorithm1()
 
 void Algorithm2()
 {
-	std::vector<std::string> names
+	std::vector<std::string> objects
 	{
 		"Chair",
 		"Apple",
@@ -53,12 +53,12 @@ void Algorithm2()
 		return false;
 	};
 
-	auto it = std::remove_if(names.begin(), names.end(), IsVowel);
-	names.erase(it, names.end());
+	auto it = std::remove_if(objects.begin(), objects.end(), IsVowel);
+	objects.erase(it, objects.end());
 
-	for (const auto& name : names)
+	for (const auto& object : objects)
 	{
-		std::cout << name << std::endl;
+		std::cout << object << std::endl;
 	}
 }
 
@@ -77,7 +77,7 @@ void Algorithm3()
 
 	auto SortByLength = [](const std::string& lhs, const std::string& rhs)
 	{
-		return (lhs.size() < rhs.size());
+		return lhs.size() < rhs.size();
 	};
 
 	std::sort(players.begin(), players.end(), SortByLength);
