@@ -62,6 +62,32 @@ void Algorithm2()
 	}
 }
 
+void Algorithm3()
+{
+	std::vector<std::string> players
+	{
+		"John",
+		"Harry",
+		"Tim",
+		"Lilly",
+		"Jo",
+		"Margaret",
+		"Amy"
+	};
+
+	auto SortByLength = [](const std::string& lhs, const std::string& rhs)
+	{
+		return (lhs.size() < rhs.size());
+	};
+
+	std::sort(players.begin(), players.end(), SortByLength);
+
+	for (const auto& player : players)
+	{
+		std::cout << player << std::endl;
+	}
+}
+
 void Algorithm5()
 {
 	std::string sentence = "Hello, how are you? I am fine!";
