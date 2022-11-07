@@ -52,8 +52,8 @@ public:
 
 private:
 
-	Month m_month;
-	unsigned short m_day;
-	unsigned short m_year;
+	Month month;
+	unsigned short day;
+	unsigned short year;
 
 };
