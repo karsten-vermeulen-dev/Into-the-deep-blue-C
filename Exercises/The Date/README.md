@@ -10,7 +10,8 @@
 
 ### Develop the following:
 
-<b>1.</b> Create a class called Date that represents any day, month and year of a particular date. <br>
+<b>1.</b> Create a class called Date that represents any day, month and year of a particular date.
+
 <b>2.</b> Make sure that the day and year member variables are integer numbers and month is an enumerated data type, like so:
 
 ```cpp
@@ -31,8 +32,10 @@ enum class Month
 };
 ```
 
-<b>3.</b> Add a constructor with parameters representing the day, month and year and add some default arguments. <br>
-<b>4.</b> Add a setter function to set the day, month and year to a specific date. Make every effort to ascertain the date is formatted correctly. For example, days larger than 31 or negative years should not be accepted. <br>
+<b>3.</b> Add a constructor with parameters representing the day, month and year and add some default arguments. 
+
+<b>4.</b> Add a setter function to set the day, month and year to a specific date. Make every effort to ascertain the date is formatted correctly. For example, days larger than 31 or negative years should not be accepted. 
+
 <b>5.</b> Add a member function that checks if the year of a given date is a leap year or not. Use the following as a reference for calculating leap years:
 
 https://www.mathsisfun.com/leap-years.html
