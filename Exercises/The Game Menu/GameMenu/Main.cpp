@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 enum class MenuOptions
 {
@@ -21,16 +20,16 @@ int main()
 		{
 			system("cls");
 			std::cout << "#====================#" << std::endl;
-			std::cout << "#     MAIN MENU      #" << std::endl;
+			std::cout << "|     MAIN MENU      |" << std::endl;
 			std::cout << "#====================#" << std::endl;
-			std::cout << "# 1. Play Game       #" << std::endl;
-			std::cout << "# 2. Instructions    #" << std::endl;
-			std::cout << "# 3. Options         #" << std::endl;
-			std::cout << "# 4. Help            #" << std::endl;
-			std::cout << "# 5. Quit            #" << std::endl;
+			std::cout << "| 1. Play Game       |" << std::endl;
+			std::cout << "| 2. Instructions    |" << std::endl;
+			std::cout << "| 3. Options         |" << std::endl;
+			std::cout << "| 4. Help            |" << std::endl;
+			std::cout << "| 5. Quit            |" << std::endl;
 			std::cout << "#====================#" << std::endl << std::endl;
 
-			std::cout << "Please make a choice >";
+			std::cout << "Please make a choice > ";
 			std::cin >> menuChoice;
 
 		} while (menuChoice < (int)MenuOptions::Play || menuChoice >(int)MenuOptions::Quit);
