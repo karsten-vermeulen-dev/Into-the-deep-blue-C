@@ -1,6 +1,4 @@
-## Game menu
-
-### Create a simple game menu:
+## Exercise 1: Create a simple game menu
 
 <b>1.</b> Using ASCII graphics and simple text, create a menu with a few gaming options, such as <i>Play</i>, <i>Options</i>, <i>Quit</i>, etc., and number them.
 
