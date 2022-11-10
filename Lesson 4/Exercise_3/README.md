@@ -1,9 +1,11 @@
-## Exercise 2: Create a simple inventory system
+## Exercise 3: Create a simple game to guess a person's name
 
-<b>1.</b> Create an application that displays a list of inventory items of a player. 
+<b>1.</b> Write a small game that requests a user to guess the name of a person. You may store the name as a <i>std::string</i> constant. 
 
-<b>2.</b> Use a loop to iterate through an array of <i>std::string</i> items, and then ask the user to enter another item for the player to carry. Make sure the loop continues to run until the user types <i>exit</i>. 
+<b>2.</b> Keep the game running in a loop until either the name has been correctly guessed or the user wishes to no longer play the game. 
 
-<b>3.</b> When displaying the items, check if they are vowels or consonants, and use the prefix <i>an</i> and <i>a</i> respectively. If the player isn't carrying anything, display something like <i>The player is carrying nothing</i>.
+<b>3.</b> Check if the user has the made a guess, guessed the name correctly or guessed the first letter of the name correctly. Display appropriate messages.
 
-<b>4.</b> Set a maximum amount of items the player can carry. When that maximum has been reached, the player cannot carry anything else.
+<b>4.</b> Before repeating the next iteration of the loop, ask the user if they wish to try again, and continue or end the loop accordingly. 
+
+<b>5.</b> Error-trap your code as much as possible.
