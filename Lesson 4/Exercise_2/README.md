@@ -1,9 +1,9 @@
-## Exercise 1: Create a simple game menu
+## Exercise 2: Create a simple inventory system
 
-<b>1.</b> Using ASCII graphics and simple text, create a menu with a few gaming options, such as <i>Play</i>, <i>Options</i>, <i>Quit</i>, etc., and number them.
+<b>1.</b> Create an application that displays a list of inventory items of a player. 
 
-<b>2.</b> Ask the user to enter a number and store this in a variable. 
+<b>2.</b> Use a loop to iterate through an array of <i>std::string</i> items, and then ask the user to enter another item for the player to carry. Make sure the loop continues to run until the user types <i>exit</i>. 
 
-<b>3.</b> Use a <i>switch statement</i> to process the user's numeric choice. For example, if the user chose option #1 or <i>Play</i>, then display the message, <i>Get ready to play the game</i>.
+<b>3.</b> When displaying the items, check if they are vowels or consonants, and use the prefix <i>an</i> and <i>a</i> respectively. If the player isn't carrying anything, display something like <i>The player is carrying nothing</i>.
 
-<b>4.</b> Use an <i>enum class</i> to represent the menu choices.
+<b>4.</b> Set a maximum amount of items the player can carry. When that maximum has been reached, the player cannot carry anything else.
