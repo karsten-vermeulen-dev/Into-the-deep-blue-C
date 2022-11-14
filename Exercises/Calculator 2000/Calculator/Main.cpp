@@ -11,21 +11,22 @@ enum class MenuItem
 	Exit
 };
 
+//======================================================================================================
 int Add(int firstNumber, int secondNumber)
 {
 	return firstNumber + secondNumber;
 }
-
+//======================================================================================================
 int Subtract(int firstNumber, int secondNumber)
 {
 	return firstNumber - secondNumber;
 }
-
+//======================================================================================================
 int Multiply(int firstNumber, int secondNumber)
 {
 	return firstNumber * secondNumber;
 }
-
+//======================================================================================================
 int Divide(int firstNumber, int secondNumber)
 {
 	if (secondNumber != 0)
@@ -39,7 +40,7 @@ int Divide(int firstNumber, int secondNumber)
 		return 0;
 	}
 }
-
+//======================================================================================================
 int Power(int base, int exponent)
 {
 	int result = base;
@@ -86,7 +87,7 @@ int DisplayMenu()
 
 	return input;
 }
-
+//======================================================================================================
 void InputNumbers(int& firstNumber, int& secondNumber)
 {
 	std::cout << "Enter the first number: ";
@@ -95,7 +96,7 @@ void InputNumbers(int& firstNumber, int& secondNumber)
 	std::cout << "Enter the second number: ";
 	std::cin >> secondNumber;
 }
-
+//======================================================================================================
 void ProcessInput(int input)
 {
 	int firstNumber{ 0 }, secondNumber{ 0 };
@@ -146,7 +147,7 @@ void ProcessInput(int input)
 
 	system("pause");
 }
-
+//======================================================================================================
 void main()
 {
 	int input{ 0 };
