@@ -1,15 +1,17 @@
-## String parser
+## The Cave
 
 ### Concepts you will improve on:
 
-- Use of <i>std::string</i> and its various member functions 
+- Use of loops, enums, structs and branching
 
-### Create a string parser function
+### Create a small game
 
-<b>1.</b> Write a function called <i>ParseString()</i> that takes in a <i>std::string</i> object and a <i>char</i> token that signifies where to split the string.
+<b>1.</b> Create a small game using a two-dimensional array that will represent the 'rooms' of the game.
 
-<b>2.</b> The function should loop through the entire string and break it up into pieces where ever it finds the token.
+<b>2.</b> Put the player into one of the rooms and add a menu to allow the player to choose which direction to move.
 
-<b>3.</b> The broken string pieces should be stored in a separate <i>std::vector</i> of strings, preferably also passed to the function as an argument.
+<b>3.</b> Check if the player can actually move in the chosen directon before moving them. For example, if the player is in the top left corner room, they will not be able to move up or left.
 
-<b>4.</b> Add a check to make sure the string is not empty.
+<b>4.</b> Use a struct to define a Position variable for the player's position. 
+
+<b>5.</b> As the player moves, update their position visually using ASCII graphics.
