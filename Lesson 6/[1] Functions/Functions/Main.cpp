@@ -65,6 +65,16 @@ int FunctionPointer(int firstNumber, int secondNumber)
 	return firstNumber + secondNumber;
 }
 //======================================================================================================
+int Fibonacci(int number)
+{
+	if (number == 1)
+		return 0;
+	else if (number == 2)
+		return 1;
+	else
+		return Fibonacci(number - 1) + Fibonacci(number - 2);
+}
+//======================================================================================================
 int main()
 {
 	//Pass by value and store result before outputting it
@@ -93,6 +103,18 @@ int main()
 	int(*functionPointer)(int, int);
 	functionPointer = FunctionPointer;
 	std::cout << "Total is: " << functionPointer(10, 20) << std::endl;
+
+	std::cout << "The Fibonacci sequence of numbers..." << std::endl;
+
+	const short total = 10;
+
+	for (int i = 1; i <= total; i++)
+	{
+		std::cout << Fibonacci(i);
+		(i == total) ? std::cout << "." : std::cout << ", ";
+	}
+
+	std::cout << std::endl << std::endl;
 
 	system("pause");
 	return 0;
