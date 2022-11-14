@@ -10,6 +10,7 @@ float PassByValue(float* firstNumber, float* secondNumber);                //ove
 short PassByValue(int* numArray, int size);                                //overloaded functions
 long PassByRef(int& firstNumber, int& secondNumber, int& thirdNumber);
 void FunctionLoop(int firstNumber, int secondNumber, bool flag = false);   //default arguments
+int FunctionPointer(int firstNumber, int secondNumber);
 
 //======================================================================================================
 //Function definitions
@@ -59,6 +60,11 @@ void FunctionLoop(int firstNumber, int secondNumber, bool flag)
 	}
 }
 //======================================================================================================
+int FunctionPointer(int firstNumber, int secondNumber)
+{
+	return firstNumber + secondNumber;
+}
+//======================================================================================================
 int main()
 {
 	//Pass by value and store result before outputting it
@@ -83,6 +89,10 @@ int main()
 	//Recursive function call 
 	//Set last argument to 'true' to create a runtime error
 	FunctionLoop(1, 10000);
+
+	int(*functionPointer)(int, int);
+	functionPointer = FunctionPointer;
+	std::cout << "Total is: " << functionPointer(10, 20) << std::endl;
 
 	system("pause");
 	return 0;
