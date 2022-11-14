@@ -61,8 +61,43 @@ int Power(int base, int exponent)
 	}
 
 	return result;
-}
 
+	//============================================
+	//Iterative method 1
+	//============================================
+
+	/*if (exponent == 0)
+	{
+		return 1;
+	}
+
+	int result = base;
+
+	for (int i = 1; i < exponent; i++)
+	{
+		result *= base;
+	}
+
+	return result;*/
+
+	//============================================
+	//Iterative method 2
+	//============================================
+
+	/*if (exponent == 0)
+	{
+		return 1;
+	}
+
+	int result = base;
+
+	while (exponent > 1)
+	{
+		result *= base;
+		exponent--;
+	}*/
+}
+//======================================================================================================
 int DisplayMenu()
 {
 	system("cls");
