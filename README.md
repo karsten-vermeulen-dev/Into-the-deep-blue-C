@@ -9,3 +9,6 @@ A complete introductory to intermediate course covering the main <i>C++</i> topi
 
 ### Lesson 2 - Refresh my memory
 <i>In this lesson, you will learn all about variables, fundamental data types, and contiguous blocks of memory known as arrays.</i>
+
+### Lesson 3 - Operator! Express yourself!
+<i>Here, you will discover all the various different operators that come with C++ and learn how to use them.</i> 
