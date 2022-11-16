@@ -1,7 +1,7 @@
-## Lesson 2 - Refresh my memory
+## Lesson 3 - Operator! Express yourself!
 
 ### Lesson material coming soon!
 
 ### Sample code
 
-- Arrays
+- Operators
