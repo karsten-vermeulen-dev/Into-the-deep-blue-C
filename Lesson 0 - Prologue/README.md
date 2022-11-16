@@ -15,7 +15,7 @@ Anyone wishing to learn how to become a good, or better <i>C++</i> programmer wi
 
 There are many hundreds of paid and free <i>C++</i> courses out there, but not all of them are good. In this course, I will break this tough language down into bitesize chunks, so that you will truly understand all of the concepts. By the end of this course, you will understand what <i>C++</i> is all about and go on to write your own applications or use <i>C++</i> in existing environments. The course also includes plenty of exercises that you should attempt to practice and develop your <i>C++</i> skills.
 
-### A few things to note!
+### A few things to note
 
 This course teaches <i>C++</i> using a <i>Windows 10</i> machine and <i>Microsoft Visual Studio Community 2022</i>. However, the core <i>C++</i> concepts taught here remain the same, and you can easily transfer what you learn over into your own specific environment.
 
