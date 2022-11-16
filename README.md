@@ -12,3 +12,6 @@ A complete introductory to intermediate course covering the main <i>C++</i> topi
 
 ### Lesson 3 - Operator! Express yourself!
 <i>Here, you will discover all the various different operators that come with C++ and learn how to use them.</i> 
+
+### Lesson 4 - The loop & flow of a program
+<i>In this lesson, you will learn how to branch your application, based on different conditions, as well as discover how to repeat different commands by using a particular loop.</i>
