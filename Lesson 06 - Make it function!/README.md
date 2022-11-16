@@ -1,12 +1,11 @@
-## Lesson 5 - Are you pointing at me?
+## Lesson 6 - Make it function!
 
 ### Lesson material coming soon!
 
 ### Sample code
 
-- Pointers
+- Functions
 
 ### Exercises
 
-- Pointers to structs
-- Array of pointers
+- Reach for the stars
