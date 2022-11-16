@@ -1,7 +1,14 @@
-## Lesson 3 - Operator! Express yourself!
+## Lesson 4 - The loop & flow of a program
 
 ### Lesson material coming soon!
 
 ### Sample code
 
-- Operators
+- Conditions
+- Loops
+
+### Exercises
+
+- A game menu
+- An inventory system
+- Guess my name
