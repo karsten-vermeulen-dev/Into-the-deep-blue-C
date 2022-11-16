@@ -21,5 +21,7 @@ This course teaches <i>C++</i> using a <i>Windows 10</i> machine and <i>Microsof
 
 ### Some books that may help you
 
+<p align="left"> <img width="180" height="220" src="https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Images/sams_c.jpg"> <img width="180" height="220" src="https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Images/bs_c.jpg"> <img width="180" height="220" src="https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Images/md_c.jpg"> <img width="180" height="220" src="https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Images/savitch_c.jpg"> <img width="180" height="220" src="https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Images/beginning_c.jpg"> </p> 
+
 So, what are you waiting for? Let’s dive right into the deep blue <i>C++</i>!
 
