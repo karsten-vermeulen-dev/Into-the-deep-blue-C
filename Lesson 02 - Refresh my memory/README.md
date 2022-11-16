@@ -1,3 +1,7 @@
-## Lesson 1 - Getting to know your environment
+## Lesson 2 - Refresh my memory
 
 ### Lesson material coming soon!
+
+### Sample code
+
+- Arrays
