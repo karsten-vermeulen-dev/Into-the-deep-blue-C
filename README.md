@@ -15,3 +15,6 @@ A complete introductory to intermediate course covering the main <i>C++</i> topi
 
 ### Lesson 4 - The loop & flow of a program
 <i>In this lesson, you will learn how to branch your application, based on different conditions, as well as discover how to repeat different commands by using a particular loop.</i>
+
+### Lesson 5 - Are you pointing at me?
+<i>You will be taking a look at some special types of variables, namely pointers and references, and understand why they are so powerful and where and when they should or should not be used. You will also learn all about stack and heap memory and how pointers can allocate space on either.</i>
