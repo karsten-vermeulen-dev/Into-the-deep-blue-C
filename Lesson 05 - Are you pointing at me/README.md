@@ -1,14 +1,12 @@
-## Lesson 4 - The loop & flow of a program
+## Lesson 5 - Are you pointing at me?
 
 ### Lesson material coming soon!
 
 ### Sample code
 
-- Conditions
-- Loops
+- Pointers
 
 ### Exercises
 
-- A game menu
-- An inventory system
-- Guess my name
+- Pointers to structs
+- Array of pointers
