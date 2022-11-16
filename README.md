@@ -18,3 +18,6 @@ A complete introductory to intermediate course covering the main <i>C++</i> topi
 
 ### Lesson 5 - Are you pointing at me?
 <i>You will be taking a look at some special types of variables, namely pointers and references, and understand why they are so powerful and where and when they should or should not be used. You will also learn all about stack and heap memory and how pointers can allocate space on either.</i>
+
+### Lesson 6 - Make it function!
+<i>Here, you will cover ways to break all of your code into manageable chunks within functions. You will learn the basics of regular functions, including how to pass data to, and receive data from, them, before discovering recursive functions, function overloading and function pointers.</i>
