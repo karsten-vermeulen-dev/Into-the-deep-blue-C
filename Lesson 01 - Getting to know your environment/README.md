@@ -47,3 +47,16 @@ Why not? It's a lucrative career, and makes good money too. But that shouldn't b
 | wWise | Another great tool for creating audio applications or to integrate audio into your existing application (or game) |
 | OpenVR | Developed by _Valve_, and created using _C_, _C++_ and _C#_, this API allows developers to manipulate virtual reality devices in their applications |
 | Qt | Pronounced _que tee_ or simply _cute_, this software development behemoth gives developers the power to create just about any kind of (GUI) application that can run on just about any device |
+
+## An introduction to _Visual Studio_
+
+### What is _Visual Studio_?
+
+This is an integrated development environment, or IDE, developed by _Microsoft_, used for writing, compiling, and linking your _C++_ code. Of course, you can use it to code in other languages as well, and the IDE comes packed with many tools to make the chore of software development so much easier. The built-in _intellisense_ will assist developers with syntax highlighting, code prediction and many different debugging tools to help find and fix issues in the code. We are only going to be using a small portion of _Visual Studio_'s capabilities, which is why the _Community 2022_ edition is more than enough for our purposes
+
+### Where can I find _Visual Studio_?
+
+_Visual Studio_ comes in three flavors, namely _Professional_, _Enterprise_ and _Community_, the latter being free, and can be downloaded [HERE](
+https://www.visualstudio.com)
+
+Click on _Download Visual Studio_ and select the _Community 2022_ edition, which will download a setup EXE file for you to run in order to install the IDE.
