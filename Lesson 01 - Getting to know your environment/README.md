@@ -29,4 +29,21 @@ Many game engines are either written in <i>C++</i>, or have some form of <i>C++<
 | Source 2 | Developed by _Valve_, this _C++_ engine can be credited for creating _Dota 2_ and _Half-Life: Alyx_ |
 | Frostbite | Known for producing the _Battlefield_ series of games, _Electronic Arts_' baby is written in both _C++_ and _C#_ |
 
+### Tell me about this so-called games industry
 
+The gaming market is massive, globally worth more than $100bn annually, with the UK games industry worth about £5bn! The UK has the 6th largest market in the world, following Germany, South Korea, Japan, USA, and China. You can choose to go and work for any type of studio, be that AAA, mid-level or indie and within that realm you can choose to develop many different types of games, namely desktop, console, mobile, online, AR, and VR. And within that, there is an abundance of career paths as well, namely tools, physics, graphics, gameplay, audio, and AI.
+
+### Want to develop software rather?
+
+Why not? It's a lucrative career, and makes good money too. But that shouldn't be your ultimate reason for entering the industry. Your passion for creating new cutting-edge software should drive you to pursue this type of career. In this field, you get the chance to create applications rather than games, and as such, the software you create might not appear as exciting or dynamic as a game. You could be creating applications such as audio plugins, database managers, banking apps, medical and audio visualizers, to name a few. Much of the middleware that you use in the industry will most likely be written in _C++_.
+
+### Some popular software APIs worth mentioning
+
+| API  | Tell me more |
+| ------------- | ------------- |
+| JUCE | Short for _Jules' Utility Class Extensions_, this cross-platform _C++_ application framework allows developers to use _C++_ to create audio apps and plugins with a rich UI |
+| OpenGL | A very old and very popular graphics API written in _C_ that allows developers to harness the raw power of the GPU to create visual applications |
+| wxWidgests | Another _C++_ library that offers developers a widget toolkit to create GUI applications |
+| wWise | Another great tool for creating audio applications or to integrate audio into your existing application (or game) |
+| OpenVR | Developed by _Valve_, and created using _C_, _C++_ and _C#_, this API allows developers to manipulate virtual reality devices in their applications |
+| Qt | Pronounced _que tee_ or simply _cute_, this software development behemoth gives developers the power to create just about any kind of (GUI) application that can run on just about any device |
