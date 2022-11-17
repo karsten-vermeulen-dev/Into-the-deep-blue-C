@@ -107,4 +107,24 @@ When you run your newly created application, you should be greeted with a termin
 
 _More info coming soon..._
 
+## The _main_ source
 
+Let us now make use of our brand new application and write some meaningful code. We are going to continue using our trusty _Main.cpp_ source file to demonstrate the following:
+
+- The `main()` function
+- Statements
+- Comments
+- The I/O Stream
+
+### The `main()` function
+
+This is the starting point of our program, which will execute all commands in order after pressing **F5**. It's a function that comprises a block of code between the curly braces **{}** and returns a value, in our case **0**, when the program is done. <br>
+The function `main()` should always return an integer value, so that upon termination of the application, the return value could signify success or failure. This return value will be sent back to the operating system or back to the parent application, if it was launched from within another program.
+
+The main function may also take command line arguments, in which case it may look like this:  
+
+```cpp
+int main(int argc, char* argv[])
+```
+
+These arguments will receive values from the command line, if that's how the application was launched, and will allow the programmer to use with them accordingly. More on this later.
