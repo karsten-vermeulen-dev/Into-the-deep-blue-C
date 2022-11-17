@@ -6,7 +6,7 @@ I know you are probably very eager to start coding away, but let’s first spend
 
 ### What exactly is <i>C++</i>?
 
-<i>C++</i> is the universal language in games programming and is widely used for general application development. It was created by Danish computer scientist Bjarne Stroustrup in 1979 and released in 1983 and has since become standardized by the <i>International Organization for Standardization</i>, or <i>ISO</i>, with the current standard being <i>C++20</i> and <i>C++23</i> on the way.
+<i>C++</i> is the universal language in games programming and is widely used for general application development. It was created by Danish computer scientist Bjarne Stroustrup in 1979 and released in 1983 and has since become standardized by the <i>International Organization for Standardization</i>, or <i>ISO</i>, with the current standard being <i>C++20</i> and <i>C++23</i> on the way. <br>
 Created as a successor to <i>C</i>, it is still one of the most widely used programming languages of all time and is an object-oriented programming language, sometimes also known as <i>C with classes</i>, that is largely backward compatible with <i>C</i>.
 
 ### Why on earth are we using it?
@@ -15,7 +15,7 @@ Well, for one thing, it's super fast, allowing us developers to squeeze out the 
 
 ### Who else uses <i>C++</i>?
 
-Many game engines are either written in <i>C++</i>, or have some form of <i>C++</i> under the hood. If you're not into developing games, you might want to utilize this powerful programming language to create regular desktop or mobile applications or even audio plugins. Tons of graphics, audio and physics libraries and APIs have been written in <i>C</i> or <i>C++</i>, allowing developers to easily link their code to build great applications.
+Many game engines are either written in <i>C++</i>, or have some form of <i>C++</i> under the hood. If you're not into developing games, you might want to utilize this powerful programming language to create regular desktop or mobile applications or even audio plugins. Tons of graphics, audio and physics libraries and APIs have been written in <i>C</i> or <i>C++</i>, allowing developers to easily link their code to build great applications. <br>
 <i>C++</i> is the one of the main programming languages used to create AAA games titles and has helped languages such as <i>Java</i> and <i>C#</i> develop.
 
 ### Some popular game engines worth mentioning
@@ -50,13 +50,18 @@ Why not? It's a lucrative career, and makes good money too. But that shouldn't b
 
 ## An introduction to _Visual Studio_
 
-### What is _Visual Studio_?
+### What is this _Visual Studio_ exactly?
 
 This is an integrated development environment, or IDE, developed by _Microsoft_, used for writing, compiling, and linking your _C++_ code. Of course, you can use it to code in other languages as well, and the IDE comes packed with many tools to make the chore of software development so much easier. The built-in _intellisense_ will assist developers with syntax highlighting, code prediction and many different debugging tools to help find and fix issues in the code. We are only going to be using a small portion of _Visual Studio_'s capabilities, which is why the _Community 2022_ edition is more than enough for our purposes
 
 ### Where can I find _Visual Studio_?
 
 _Visual Studio_ comes in three flavors, namely _Professional_, _Enterprise_ and _Community_, the latter being free, and can be downloaded [HERE](
-https://www.visualstudio.com)
+https://www.visualstudio.com). Click on _Download Visual Studio_ and select the _Community 2022_ edition, which will download a setup EXE file for you to run in order to install the IDE.
 
-Click on _Download Visual Studio_ and select the _Community 2022_ edition, which will download a setup EXE file for you to run in order to install the IDE.
+### Managing the installation
+
+After installing _Visual Studio_, you can use the _Visual Studio Installer_ to modify or update your installation. Simply search for this on your machine and run it. You can have multiple versions of _Visual Studio_ installed side-by-side, which can be managed separately. <br>
+Inside the _Visual Studio Installer_, in the _Community 2022_ box, click on **Modify** to make changes to your installation. Under the _Workloads_ tab, make sure to select the **Desktop development with C++** box, which should provide you with all the bog-standard _C++_ tools you will need. Click on **Modify** in the bottom right corner of the screen to apply these changes. <br>
+If there are specific components you wish to install, then simply click on the _Individual components_ tab at the top of the installer. Here, you can install specific compilers, language extras, debugging tools, plugins, and much more. It is also here that _Windows_ developers can choose to install specific _Windows Software Development Kits_, or _SDKs_. You should have default SDKs selected for installation, but if you’re after something specific, select it, as well as any other components and click on **Modify** to install them.
+
