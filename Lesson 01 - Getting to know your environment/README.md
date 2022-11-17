@@ -65,3 +65,24 @@ After installing _Visual Studio_, you can use the _Visual Studio Installer_ to m
 Inside the _Visual Studio Installer_, in the _Community 2022_ box, click on **Modify** to make changes to your installation. Under the _Workloads_ tab, make sure to select the **Desktop development with C++** box, which should provide you with all the bog-standard _C++_ tools you will need. Click on **Modify** in the bottom right corner of the screen to apply these changes. <br>
 If there are specific components you wish to install, then simply click on the _Individual components_ tab at the top of the installer. Here, you can install specific compilers, language extras, debugging tools, plugins, and much more. It is also here that _Windows_ developers can choose to install specific _Windows Software Development Kits_, or _SDKs_. You should have default SDKs selected for installation, but if you’re after something specific, select it, as well as any other components and click on **Modify** to install them.
 
+### Starting a new project
+
+Let us begin by doing the following:
+
+1. Start up _Visual Studio_ and create a **New Project** 
+2. Select the **Empty Project** template and click **Next** 
+3. Give your project a name, choose the desired location for your solution folder and click **Create**
+
+You are now inside _Visual Studio_'s famous IDE. Take a good look around and admire the view. This will be your new home away from home. Once you're done staring, add a source file to the project, which will be our main starting point for the application. To achieve this, simply right-click on the _Source Files_ tab and select **Add** and then **New Item**. Now select the **C++ File** option and give the file a name, something as boring as **Main.cpp**.
+
+We can now add some start-up code to the _Main.cpp_ file, however, don’t worry too much about what it does just yet:
+
+```cpp
+#include <iostream>
+
+int main()
+{
+    system("pause");
+    return 0;
+}
+  ```
