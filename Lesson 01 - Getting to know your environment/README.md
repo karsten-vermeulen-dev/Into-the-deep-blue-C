@@ -1,3 +1,20 @@
 ## Lesson 1 - Getting to know your environment
 
-### Lesson material coming soon!
+## An introduction to <i>C++</i>
+
+I know you are probably very eager to start coding away, but let’s first spend some time getting to know the language that is <i>C++</i>. Let’s take a look at what <i>C++</i> really is, why we should care about it and who on earth actually uses it. 
+
+### What exactly is <i>C++</i>?
+
+<i>C++</i> is the universal language in games programming and is widely used for general application development. It was created by Danish computer scientist Bjarne Stroustrup in 1979 and released in 1983 and has since become standardized by the <i>International Organization for Standardization</i>, or <i>ISO</i>, with the current standard being <i>C++20</i> and <i>C++23</i> on the way.
+Created as a successor to <i>C</i>, it is still one of the most widely used programming languages of all time and is an object-oriented programming language, sometimes also known as <i>C with classes</i>, that is largely backward compatible with <i>C</i>.
+
+### Why on earth are we using it?
+
+Well, for one thing, it's super fast, allowing us developers to squeeze out the best performance in a game or application. It's also extremely well supported with many different 3rd party libraries and code assets available. <i>C++</i> is a multi-paradigm, intermediate-level programming language, offering extreme flexibility when developing applications. Finally, it allows for more control over peripherals, giving us direct access to hardware and memory.
+
+### Who else uses <i>C++</i>?
+
+Many game engines are either written in <i>C++</i>, or have some form of <i>C++</i> under the hood. If you're not into developing games, you might want to utilize this powerful programming language to create regular desktop or mobile applications or even audio plugins. Tons of graphics, audio and physics libraries and APIs have been written in <i>C</i> or <i>C++</i>, allowing developers to easily link their code to build great applications.
+<i>C++</i> is the one of the main programming languages used to create AAA games titles and has helped languages such as <i>Java</i> and <i>C#</i> develop.
+
