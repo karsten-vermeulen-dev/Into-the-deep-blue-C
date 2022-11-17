@@ -18,3 +18,15 @@ Well, for one thing, it's super fast, allowing us developers to squeeze out the 
 Many game engines are either written in <i>C++</i>, or have some form of <i>C++</i> under the hood. If you're not into developing games, you might want to utilize this powerful programming language to create regular desktop or mobile applications or even audio plugins. Tons of graphics, audio and physics libraries and APIs have been written in <i>C</i> or <i>C++</i>, allowing developers to easily link their code to build great applications.
 <i>C++</i> is the one of the main programming languages used to create AAA games titles and has helped languages such as <i>Java</i> and <i>C#</i> develop.
 
+### Some popular game engines worth mentioning
+
+| Engine  | Tell me more |
+| ------------- | ------------- |
+| Unity  | A very popular game engine built using _C++_ yet offering only _C#_ scripting to the developer |
+| Unreal Engine  | Epic's grand master of engines, written in _C++_ with the option to code in _C++_ as an alternative to using _Blueprints_ |
+| CryEngine  | German studio _Crytek_'s famous engine, popular for the game _Far Cry_, is also written in _C++_ |
+| Open 3D Engine | Based on _Amazon_'s _Lumberyard_ engine, which in turn is based on _CryEngine_, this new kid on the block also uses _C++_ alongside _Lua_ and _Python_ |
+| Source 2 | Developed by _Valve_, this _C++_ engine can be credited for creating _Dota 2_ and _Half-Life: Alyx_ |
+| Frostbite | Known for producing the _Battlefield_ series of games, _Electronic Arts_' baby is written in both _C++_ and _C#_ |
+
+
