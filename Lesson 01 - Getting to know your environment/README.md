@@ -85,4 +85,26 @@ int main()
     system("pause");
     return 0;
 }
-  ```
+```
+
+### Compiling & running the project
+
+We now have a simple _Visual Studio C++_ project set up, with a few lines of code, and are ready to test it out. Once we have written some code that makes sense, the source file can be compiled and there are multiple ways to do this, namely: 
+
+1. Right-click the project name and select **Build**
+2. Click the **Build** button on the toolbar. If you don’t see it, right-click the toolbar and select the **Build** option
+
+If there are any errors when building your project, they will appear in the _Output_ window below. Once your project has built successfully, you can go ahead and run it and this can be done as follows:
+
+1. Simply hit **F5**
+2. Click the _Run_ button on the toolbar (it's the green _play_ button)
+
+The above actions will also compile the project, if not already done, before running the application. 
+
+When you run your newly created application, you should be greeted with a terminal/console window prompting you to press any key to continue.
+
+### Tips, tricks & shortcuts
+
+_More info coming soon..._
+
+
