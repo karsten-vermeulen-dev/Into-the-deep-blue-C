@@ -290,4 +290,19 @@ Now, the _newline character_ isn't the only special character out there. In fact
 | \\" | Print a quotation character in the text |
 | \\\ | Print a backslash character in the text |
 
+### The input stream
 
+To get input from the keyboard, we use the _std::cin_ object, the _extraction operator_ **(>>)** and a variable to store the data in:
+
+```cpp
+int age;
+std::cin >> age;
+```
+
+You can also store multiple values by providing multiple variables in one line, separated by extraction operators:
+
+```cpp
+int age;
+float weight;
+std::cin >> age >> weight;
+```
