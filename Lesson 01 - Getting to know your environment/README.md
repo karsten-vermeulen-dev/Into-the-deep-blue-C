@@ -204,7 +204,7 @@ These are parts of the code that are ignored by the compiler and are there to as
    lines */
 ```
 
-💡 Because comments are not compiled, they do not need a semicolon at the end.
+💡 _Because comments are not compiled, they do not need a semicolon at the end_.
 
 Although comments are good for explaining complex code and algorithms, don't overuse them or comment the obvious. You should always aim to write self-documenting code and name your variables and functions properly:
 
@@ -213,6 +213,26 @@ void AddTwoNumbers(int firstNumber, int secondNumber)
 {
     //Add the numbers...
 }
+```
+
+### The I/O stream
+
+When you look at the basic core entity of every game or application, there is always some kind of input and output happening. For instance, players use keyboards, mice or controllers to input data and have their screens, TVs or VR headsets display the graphics. Similarly, applications read data input via the keyboard or mouse and display graphical feedback in the form of user interfaces, animations or images to screens and headsets. <br>
+In _C++_, we can achieve the same basic input/output, however in a much simpler form (for now). We can use our keyboards to enter text data and use the console screen we created earlier to display data. For this to work, we will make use of the input and output streams that come with the _Standard C++ Library_, which requires us to include a certain header file:
+
+```cpp
+#include <iostream>
+```
+
+Because we will be using functions and commands that belong to this _C++_ library, we will need to make use of the following namespace:
+
+```cpp
+std::
+```
+
+💡 _Don't worry too much about what namespaces are, we will cover them in a later lesson_.
 
 
- 
+
+
+
