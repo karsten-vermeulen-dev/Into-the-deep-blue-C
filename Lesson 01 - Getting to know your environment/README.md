@@ -138,3 +138,59 @@ int main(int argc, char* argv[])
 ```
 
 These arguments will receive values from the command line, if that's how the application was launched, and will allow the programmer to use with them accordingly. More on this later.
+
+### Statements
+
+These are all the commands in a program that tell the application what to do and have to end with a _semicolon_ **(;)**. 
+
+```cpp
+system("pause");
+return 0;
+```
+
+Statements may also span over multiple lines, like so:
+
+```cpp
+std::cout << "Hello Game World, this is a very long sentence that " 
+             "will span over multiple lines. If you had a widescreen "
+             "display, this would not be necessary at all." << std::endl;
+```
+
+Alternatively, you can have multiple statements in one line, as long as each one ends with a semicolon:
+
+```cpp
+left = right; system("pause"); return 0;
+```
+
+Statements that are grouped together are called _compound statements_ or _blocks_.
+
+```cpp
+if (right == wrong)
+{
+    //The world will end!
+    SaveTheWorld();
+    return -1;
+}
+```
+
+They are usually grouped together within _curly brackets_ **({})** and all statements have to end with a _semicolon_ **(;)**. No matter how much whitespace (in the form of spaces, tabs or newlines) is present, the compiler reads an entire statement as one entity until it finds the semicolon. 
+
+_**Note**_: Brace wars are a thing and many developers out there will argue which method is better, i.e., lined up or such that the opening brace is on the same line as the opening statement. Ignore the heated discussions as to which is better, simply choose the method you prefer and stick to that. Don't mix it up. 
+
+```cpp
+if(braces == linedUp)
+{
+    //Happy days
+}
+```
+
+**OR**
+
+```cpp
+if(braces == notLinedUp) {
+    //Happy days 
+}
+```
+
+### Comments
+
