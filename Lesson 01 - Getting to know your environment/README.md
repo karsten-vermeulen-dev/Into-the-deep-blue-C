@@ -175,7 +175,7 @@ if (right == wrong)
 
 They are usually grouped together within _curly brackets_ **({})** and all statements have to end with a _semicolon_ **(;)**. No matter how much whitespace (in the form of spaces, tabs or newlines) is present, the compiler reads an entire statement as one entity until it finds the semicolon. 
 
-_**Note**_: Brace wars are a thing and many developers out there will argue which method is better, i.e., lined up or such that the opening brace is on the same line as the opening statement. Ignore the heated discussions as to which is better, simply choose the method you prefer and stick to that. Don't mix it up. 
+💡 _Brace wars are a thing and many developers out there will argue which method is better, i.e., lined up or such that the opening brace is on the same line as the opening statement. Ignore the heated discussions as to which is better, simply choose the method you prefer and stick to that. Don't mix it up_. 
 
 ```cpp
 if(braces == linedUp)
@@ -194,3 +194,25 @@ if(braces == notLinedUp) {
 
 ### Comments
 
+These are parts of the code that are ignored by the compiler and are there to assist programmers with understanding what the code does. Comments can span over a single line or take up multiple lines like so:
+
+```cpp
+//This is a comment
+
+/* This is also a comment
+   that spans over multiple
+   lines */
+```
+
+💡 Because comments are not compiled, they do not need a semicolon at the end.
+
+Although comments are good for explaining complex code and algorithms, don't overuse them or comment the obvious. You should always aim to write self-documenting code and name your variables and functions properly:
+
+```cpp
+void AddTwoNumbers(int firstNumber, int secondNumber)
+{
+    //Add the numbers...
+}
+
+
+ 
