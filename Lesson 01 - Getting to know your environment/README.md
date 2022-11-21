@@ -232,7 +232,62 @@ std::
 
 💡 _Don't worry too much about what namespaces are, we will cover them in a later lesson_.
 
+### The output stream
 
+To output to the console we use the _std::cout_ object and the _insertion operator_ **(<<)**:
 
+```cpp
+std::cout << "Sending text to the console...";
+```
+
+Besides text, we can also print numeric values on the console window:
+
+```cpp
+//Output a positive whole number
+std::cout << 100;
+
+//Output a negative whole number
+std::cout << -25000;
+
+//Output a decimal number
+std::cout << 1.234;
+```
+Fancy mixing it up a little? Well, you can send multiple different entities to the output stream, such as string and numeric literals, as long as the _insertion operator_ is used in between: 
+
+```cpp
+//Mixing string literals with whole numbers
+std::cout << "I am " << 100 << " years old!";
+
+//Mixing string literals with decimal numbers
+std::cout << "I weigh " << 45.7 << " kilos!";
+```
+
+The _std::endl_ object is used to move to the next line. This has the same effect as hitting the enter key:
+
+```cpp
+std::cout << "This is one line of text" << std::endl;
+std::cout << "This is another...";
+```
+
+The above can also be achieved using the special _newline character_ **(\n)**:
+
+```cpp
+std::cout << "This is one line of text\nThis is another...";
+```
+
+💡 _The second method works just as well, however it can make the code look very messy and confusing._
+
+### Escape sequences
+
+Now, the _newline character_ isn't the only special character out there. In fact, there are a few other special characters you can insert within text, and these are known as _escape sequences_. To use one of these characters, you have to precede them with a _backslash character_ **(\\)** which tells the compiler that something special needs to be output, such as a new line or tab. This means that these characters will not be printed to the console but instead be used to format the text in some particular way. This special formatted output would not otherwise be printable in any manner hence why there are a few of these set aside:
+
+| Character  | What it does |
+| ------------- | ------------- |
+| \a | Create the default _Windows_ sound |
+| \n | Go to the next line in the console window |
+| \b | Go back and erase one character in the text (backspace) |
+| \t | Move forward a few spaces (tab) |
+| \\" | Print a quotation character in the text |
+| \\\ | Print a backslash character in the text |
 
 
