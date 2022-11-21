@@ -105,7 +105,17 @@ When you run your newly created application, you should be greeted with a termin
 
 ### Tips, tricks & shortcuts
 
-_More info coming soon..._
+| Shortcut  | What it does |
+| ------------- | ------------- |
+| CTRL-D | Duplicates a line of code |
+| CTRL-KC | After selecting a block of code, use this to comment out the entire segment |
+| CTRL-KU | You can also uncomment an entire segment of code using this shortcut |
+| CTRL-KD | Based on the formatting options set, this will format your code, such that it is indented, aligned and spaced out accordingly |
+| ALT-UP/DOWN arrows | Place the mouse cursor next to line of code and use this shortcut to move the entire line up/down the page |
+| TAB | Useful for auto-filling code segments such as loops, branches, switch statements, etc. |
+| ALT-mouse drag | This will allow you to select rectangular blocks of code |
+
+_More tips, tricks & shortcuts coming soon..._
 
 ## The _main_ source
 
