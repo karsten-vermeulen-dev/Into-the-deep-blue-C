@@ -48,14 +48,28 @@ _At this stage, you should be ready to delve into the last, and possibly most co
 
 ### Lesson 13 - Operator! Overload yourself!
 
+_You will learn all about operator overloading and how this powerful feature of C++ will allow you to make your operators behave in very different ways, in ways that you want them to behave_.
+
 ### Lesson 14 - T.U. Template
+
+_In this lesson, you will discover how to create 'empty shell' classes and functions that can be used later on to 'plug-in' different data types. Another powerful language feature worthy of a mention_.
 
 ### Lesson 15 - A brief overview of the Standard Library
 
+_From strings to vectors, deques to maps, stacks to queues, you will be introduced to the Standard C++ Library and discover the various different containers and algorithms it holds_.
+
 ### Lesson 16 - Let's be smart about this
+
+_After appreciating raw pointers, you are really going to appreciate smart pointers as you learn about unique, shared and weak pointers_.
 
 ### Lesson 17 - Have you tried the lambda?
 
+_Nothing like a nice, big leg of lambda to avoid code duplication and tidy up the codebase. Here, you will learn all about these handy function objects that will allow you to create blocks of code to handle smaller tasks_.
+
 ### Lesson 18 - File it under 'T'
 
+_Here, you will learn all about file handling, starting with reading from, and writing to, text files. You will look into different file handling flags, stream operators and file states_.
+
 ### Lesson 19 - File it under 'B'
+
+_You will now look more into binary files and discover how the internal file pointers can manage raw data in a file. You will both write binary data to, and read data from, a .dat file, so that you can store data in files that a user cannot edit_.
