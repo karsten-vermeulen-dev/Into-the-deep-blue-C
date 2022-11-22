@@ -1,7 +1,26 @@
-## Lesson 12 - Transformation time!
+## Lesson 13 - Operator! Overload yourself!
 
-## Polymorphism
+## Operator overloading
 
-The last, and possibly most powerful, OOP technique we will demonstrate is _polymorphism_. As the name states, _poly_ means _many_ and _morphism_ means to _transform_, i.e. _multiple transformations of objects_. This OOP technique works with inheritance to allow specific and specialised functionality of derived classes. All child classes of a particular parent class share a common functionality and will behave differently based on what type of object has been created at runtime. Polymorphism is a very powerful, yet expensive, technique and only works properly if instantiating objects on the heap. 
+Up until now, we have used operators to perform trivial tasks on intrinsic data such as _ints_, _floats_ or _bools_
+
+```cpp
+//Adding two numbers and assigning the result
+int total = num1 + num2;
+
+//Do something if time exceeds 100 seconds
+if (totalTime >= 100.0f)
+{
+    //do stuff
+}
+
+//Keep playing the game while the game is actively running
+if (isGameRunning == true)
+{
+     //play the game
+}
+```
+
+Because these intrinsic data types are built into the compiler, the compiler knows how to perform the operations assigned. However, we can overload these operators so that our custom built data types can perform specific operations. For this to properly work, we will need to add special member functions to our classes because, in addition to encapsulating state and behavior, classes can also encapsulate operators. These operators are special kinds of functions that can operate on data of the class instances. We will begin overloading _unary operators_ and then follow on with _binary operators_.
 
 _More material coming soon..._
