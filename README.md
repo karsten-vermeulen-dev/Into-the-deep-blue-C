@@ -24,15 +24,27 @@ _Here, you will cover ways to break all of your code into manageable chunks with
 
 ### Lesson 7 - The anatomy of a _C++_ program
 
+_In this lesson, you will take a deeper dive into the full pipeline of a working C++ program. From preprocessing to final execution, you will learn about all the different parts that work together to create an application. You will also learn about Visual Studio project folder structure, as well as debug and release modes_.
+
 ### Lesson 8 - It’s all going _OOP_ from here...
+
+_Finally, the time has come to leave behind the woes of procedural programming and welcome the world of object-oriented programming. Here, you will gain an overview of encapsulation and learn all about classes and objects and how they are created and destroyed using constructors and destructors_.
 
 ### Lesson 9 - Keep your members private
 
+_Here, you will learn all about abstraction and how you can create self-contained classes that don't need to expose their inner functionality to the outside world._
+
 ### Lesson 10 - To is-a or to has-a, that is the question I
+
+_During the first part of this double-feature, you will focus on containment, composition and aggregation, and discover how all of this can be used to have one class consist of another, forming a has-a relationship_.
 
 ### Lesson 11 - To is-a or to has-a, that is the question II
 
+_In the latter half, you will learn about inheritance, and how child classes can derive from their parent classes, forming a special kind of is-a relationship_.
+
 ### Lesson 12 - Transformation time!
+
+_At this stage, you should be ready to delve into the last, and possibly most complex, OOP type – polymorphism! You will cover everything there is to know about this technique, what it's used for and how to properly implement it. At the end of this lesson, you will know all about abstract base classes, early and late binding and dynamic casting. What a mouthful!_
 
 ### Lesson 13 - Operator! Overload yourself!
 
