@@ -11,7 +11,7 @@ _You will be introduced to the C++ programming language, including where and why
 _In this lesson, you will learn all about variables, fundamental data types, and contiguous blocks of memory known as arrays_.
 
 ### Lesson 3 - Operator! Express yourself!
-_Here, you will discover all the various different operators that come with C++ and learn how to use them_. 
+_Here, you will discover all the many different operators that come with C++ and learn how to use those to manipulate your variables in memory_. 
 
 ### Lesson 4 - The loop & flow of a program
 _In this lesson, you will learn how to branch your application, based on different conditions, as well as discover how to repeat different commands by using a particular loop_.
@@ -21,3 +21,29 @@ _You will be taking a look at some special types of variables, namely pointers a
 
 ### Lesson 6 - Make it function!
 _Here, you will cover ways to break all of your code into manageable chunks within functions. You will learn the basics of regular functions, including how to pass data to, and receive data from, them, before discovering recursive functions, function overloading and function pointers_.
+
+### Lesson 7 - The anatomy of a _C++_ program
+
+### Lesson 8 - It’s all going _OOP_ from here...
+
+### Lesson 9 - Keep your members private
+
+### Lesson 10 - To is-a or to has-a, that is the question I
+
+### Lesson 11 - To is-a or to has-a, that is the question II
+
+### Lesson 12 - Transformation time!
+
+### Lesson 13 - Operator! Overload yourself!
+
+### Lesson 14 - T.U. Template
+
+### Lesson 15 - A brief overview of the Standard Library
+
+### Lesson 16 - Let's be smart about this
+
+### Lesson 17 - Have you tried the lambda?
+
+### Lesson 18 - File it under 'T'
+
+### Lesson 19 - File it under 'B'
