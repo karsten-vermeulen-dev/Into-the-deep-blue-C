@@ -1,7 +1,7 @@
-## Lesson 11 - To _is-a_ or to _has-a_, that is the question II
+## Lesson 12 - Transformation time!
 
-## Inheritance
+## Polymorphism
 
-Classes can share similar functionality and relate to each other in various ways. Inheritance allows for common features to be encapsulated in a base class and specific functionality to be contained in child classes derived from it. Furthermore, it allows for features and data of base classes to be passed down and extended in the derived class. This comprises deriving sub-classes from base classes and sub-classes can in turn be base classes to other objects as well. Base classes are known to be more generic whereas child classes are more specialised. Inheritance is modelled around the _is-a_ relationship.
+The last, and possibly most powerful, OOP technique we will demonstrate is _polymorphism_. As the name states, _poly_ means _many_ and _morphism_ means to _transform_, i.e. _multiple transformations of objects_. This OOP technique works with inheritance to allow specific and specialised functionality of derived classes. All child classes of a particular parent class share a common functionality and will behave differently based on what type of object has been created at runtime. Polymorphism is a very powerful, yet expensive, technique and only works properly if instantiating objects on the heap. 
 
 _More material coming soon..._
