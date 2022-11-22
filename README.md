@@ -34,11 +34,11 @@ _Finally, the time has come to leave behind the woes of procedural programming a
 
 _Here, you will learn all about abstraction and how you can create self-contained classes that don't need to expose their inner functionality to the outside world._
 
-### Lesson 10 - To is-a or to has-a, that is the question I
+### Lesson 10 - To _is-a_ or to _has-a_, that is the question I
 
 _During the first part of this double-feature, you will focus on containment, composition and aggregation, and discover how all of this can be used to have one class consist of another, forming a has-a relationship_.
 
-### Lesson 11 - To is-a or to has-a, that is the question II
+### Lesson 11 - To _is-a_ or to _has-a_, that is the question II
 
 _In the latter half, you will learn about inheritance, and how child classes can derive from their parent classes, forming a special kind of is-a relationship_.
 
