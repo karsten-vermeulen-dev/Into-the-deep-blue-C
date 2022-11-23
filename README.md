@@ -65,22 +65,42 @@ _You will learn all about operator overloading and how this powerful feature of 
 
 _In this lesson, you will discover how to create 'empty shell' classes and functions that can be used later on to 'plug-in' different data types. Another powerful language feature worthy of a mention_.
 
-### Lesson 15 - A brief overview of the Standard Library
-
-_From strings to vectors, deques to maps, stacks to queues, you will be introduced to the Standard C++ Library and discover the various different containers and algorithms it holds_.
-
-### Lesson 16 - Let's be smart about this
-
-_After appreciating raw pointers, you are really going to appreciate smart pointers as you learn about unique, shared and weak pointers_.
-
-### Lesson 17 - Have you tried the lambda?
+### Lesson 15 - Have you tried the lambda?
 
 _Nothing like a nice, big leg of lambda to avoid code duplication and tidy up the codebase. Here, you will learn all about these handy function objects that will allow you to create blocks of code to handle smaller tasks_.
 
-### Lesson 18 - File it under 'T'
+### Lesson 16 - A brief overview of the _Standard Library_
+
+_You will be introduced to the Standard C++ Library and discover, briefly, what useful tools it offers the everyday C++ programmer and why you should care. You will also learn about a more flexible kind of array_.    
+
+### Lesson 17 - Some _String_ theory
+
+_Being a lot simpler than it sounds, this lesson will cover the Standard Library's std::string class and detail exactly what the class offers._
+
+### Lesson 18 - There's a container for that I
+
+_You will begin this new trilogy by learning all about the Standard Library's sequential storage units, namely, vectors, deques and lists, including how they work, and in what situation they would be useful._
+
+### Lesson 19 - There's a container for that II
+
+_You will continue your container journey by discovering associative containers, namely maps and sets. You will again learn what makes them useful and where they would typically be implemented._
+
+### Lesson 20 - There's a container for that III
+
+_To close off the container trilogy, you are going to learn all about adaptive containers, namely stacks, queues and priority queues._ 
+
+### Lesson 21 - Algorithmic thinking
+
+_Another powerful set of tools the Standard Library offers are algorithms, and so in this lesson, you will discover various different algorithms, what they do and how they would be used to solve a particular problem._
+
+### Lesson 22 - Let's be smart about this
+
+_After appreciating raw pointers, you are really going to appreciate smart pointers as you learn about unique, shared and weak pointers_.
+
+### Lesson 23 - File it under 'T'
 
 _Here, you will learn all about file handling, starting with reading from, and writing to, text files. You will look into different file handling flags, stream operators and file states_.
 
-### Lesson 19 - File it under 'B'
+### Lesson 24 - File it under 'B'
 
 _You will now look more into binary files and discover how the internal file pointers can manage raw data in a file. You will both write binary data to, and read data from, a .dat file, so that you can store data in files that a user cannot edit_.
