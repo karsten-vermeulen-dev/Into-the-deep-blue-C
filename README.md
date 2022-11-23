@@ -65,7 +65,7 @@ _You will learn all about operator overloading and how this powerful feature of 
 
 _In this lesson, you will discover how to create 'empty shell' classes and functions that can be used later on to 'plug-in' different data types. Another powerful language feature worthy of a mention_.
 
-### Lesson 15 - Have you tried the lambda?
+### [Lesson 15 - Have you tried the lambda?](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2015%20-%20Have%20you%20tried%20the%20lambda)
 
 _Nothing like a nice, big leg of lambda to avoid code duplication and tidy up the codebase. Here, you will learn all about these handy function objects that will allow you to create blocks of code to handle smaller tasks_.
 
