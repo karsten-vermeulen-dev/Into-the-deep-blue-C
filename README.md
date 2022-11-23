@@ -69,11 +69,11 @@ _In this lesson, you will discover how to create 'empty shell' classes and funct
 
 _Nothing like a nice, big leg of lambda to avoid code duplication and tidy up the codebase. Here, you will learn all about these handy function objects that will allow you to create blocks of code to handle smaller tasks_.
 
-### [Lesson 16 - A brief overview of the _Standard Library_](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Lesson%2016%20-%20A%20brief%20overview%20of%20the%20Standard%20Library/README.md)
+### [Lesson 16 - A brief overview of the _Standard Library_](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/blob/main/Lesson%2016%20-%20A%20brief%20overview%20of%20the%20Standard%20Library)
 
 _You will be introduced to the Standard C++ Library and discover, briefly, what useful tools it offers the everyday C++ programmer and why you should care. You will also learn about a more flexible kind of array_.    
 
-### Lesson 17 - Some _String_ theory
+### [Lesson 17 - Some _String_ theory](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2017%20-%20Some%20String%20theory)
 
 _Being a lot simpler than it sounds, this lesson will cover the Standard Library's std::string class and detail exactly what the class offers._
 
