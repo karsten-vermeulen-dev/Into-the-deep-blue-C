@@ -29,6 +29,8 @@ _You will be taking a look at some special types of variables, namely pointers a
 
 _Here, you will cover ways to break all of your code into manageable chunks within functions. You will learn the basics of regular functions, including how to pass data to, and receive data from, them, before discovering recursive functions, function overloading and function pointers_.
 
+<hr>
+
 ### [Lesson 7 - The anatomy of a _C++_ program](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2007%20-%20The%20anatomy%20of%20a%20C%2B%2B%20program)
 
 _In this lesson, you will take a deeper dive into the full pipeline of a working C++ program. From preprocessing to final execution, you will learn about all the different parts that work together to create an application. You will also learn about Visual Studio project folder structure, as well as debug and release modes_.
