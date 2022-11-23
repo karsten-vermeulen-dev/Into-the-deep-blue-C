@@ -93,7 +93,7 @@ _To close off the container trilogy, you are going to learn all about adaptive c
 
 _Another powerful set of tools the Standard Library offers are algorithms, and so in this lesson, you will discover various different algorithms, what they do and how they would be used to solve a particular problem._
 
-### Lesson 22 - Let's be smart about this
+### [Lesson 22 - Let's be smart about this](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2022%20-%20Let's%20be%20smart%20about%20this)
 
 _After appreciating raw pointers, you are really going to appreciate smart pointers as you learn about unique, shared and weak pointers_.
 
