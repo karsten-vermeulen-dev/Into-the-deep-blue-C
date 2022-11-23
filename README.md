@@ -77,15 +77,15 @@ _You will be introduced to the Standard C++ Library and discover, briefly, what 
 
 _Being a lot simpler than it sounds, this lesson will cover the Standard Library's std::string class and detail exactly what the class offers._
 
-### Lesson 18 - There's a container for that I
+### [Lesson 18 - There's a container for that I](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2018%20-%20There's%20a%20container%20for%20that%20I)
 
 _You will begin this new trilogy by learning all about the Standard Library's sequential storage units, namely, vectors, deques and lists, including how they work, and in what situation they would be useful._
 
-### Lesson 19 - There's a container for that II
+### [Lesson 19 - There's a container for that II](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2019%20-%20There's%20a%20container%20for%20that%20II)
 
 _You will continue your container journey by discovering associative containers, namely maps and sets. You will again learn what makes them useful and where they would typically be implemented._
 
-### Lesson 20 - There's a container for that III
+### [Lesson 20 - There's a container for that III](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2020%20-%20There's%20a%20container%20for%20that%20III)
 
 _To close off the container trilogy, you are going to learn all about adaptive containers, namely stacks, queues and priority queues._ 
 
