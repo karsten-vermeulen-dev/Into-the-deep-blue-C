@@ -97,10 +97,10 @@ _Another powerful set of tools the Standard Library offers are algorithms, and s
 
 _After appreciating raw pointers, you are really going to appreciate smart pointers as you learn about unique, shared and weak pointers_.
 
-### Lesson 23 - File it under 'T'
+### [Lesson 23 - File it under 'T'](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2023%20-%20File%20it%20under%20'T')
 
 _Here, you will learn all about file handling, starting with reading from, and writing to, text files. You will look into different file handling flags, stream operators and file states_.
 
-### Lesson 24 - File it under 'B'
+### [Lesson 24 - File it under 'B'](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2024%20-%20File%20it%20under%20'B')
 
 _You will now look more into binary files and discover how the internal file pointers can manage raw data in a file. You will both write binary data to, and read data from, a .dat file, so that you can store data in files that a user cannot edit_.
