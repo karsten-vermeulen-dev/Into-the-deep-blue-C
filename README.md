@@ -89,7 +89,7 @@ _You will continue your container journey by discovering associative containers,
 
 _To close off the container trilogy, you are going to learn all about adaptive containers, namely stacks, queues and priority queues._ 
 
-### Lesson 21 - Algorithmic thinking
+### [Lesson 21 - Algorithmic thinking](https://github.com/karsten-vermeulen-dev/Into-the-deep-blue-C-/tree/main/Lesson%2021%20-%20Algorithmic%20thinking)
 
 _Another powerful set of tools the Standard Library offers are algorithms, and so in this lesson, you will discover various different algorithms, what they do and how they would be used to solve a particular problem._
 
