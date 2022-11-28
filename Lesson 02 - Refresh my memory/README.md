@@ -95,3 +95,30 @@ int intNum{ floatNum };
 
 💡 _Brace initialization may also be termed **list initialization** and may not always be the solution you want. Again, there are many discussions online pertaining to when, where, how, and why to use them, with many discussions becoming very heated. If you choose to use it, stay consistent in your codebase, unless it cannot be used in a particular situation. For the remainder of the material here, we will revert back to **not** using brace initialization._
 
+### Assigning values to variables
+
+Initializing variables only happens when declaring the variable and assigning it a value straight away to avoid garbage data. Variables may also be assigned data throughout the lifetime or scope of the variable, as long as it hasn't been declared a _constant_ (More on that later). <br>
+
+One way to assign a value to a variable is to simply state a _literal value_, like so:
+
+```cpp
+number1 = -10;
+number2 = 2.345f;
+name = "Karsten";
+```
+
+We can also assign an existing variable to another, like so:
+
+```cpp
+firstNumber = anotherNumber;
+```
+
+Assignment chaining is also supported and allows us to assign different variables to each other: 
+
+```cpp
+number1 = number2 = number3 = number4;
+```
+
+💡 _Assignment chaining works from right to left meaning the value of the variable on the right is assigned to all other variables._
+
+
