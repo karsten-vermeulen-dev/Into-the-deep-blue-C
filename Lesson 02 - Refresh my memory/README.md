@@ -109,7 +109,7 @@ name = "Karsten";
 
 We can also assign an existing variable to another, like so:
 
-```ruby
+```cpp
 firstNumber = anotherNumber;
 ```
 
@@ -166,8 +166,14 @@ For those of you that are curious as to how much storage each of these variables
 | Data type | Byte size | Value range |
 | ------------- | ------------- | ------------- |
 | _bool_  | 1 byte | **true** or **false** |
-| _char_ | 1 byte | Can store values between **-128** and **127** |
-| _unsigned char_ | 1 byte | Can store values between **0** and **255** |
+| _char_ | 1 byte | **-128** to **127** |
+| _unsigned char_ | 1 byte | **0** to **255** |
+| _float_ | 4 bytes | **-3.4e±38** to **3.4e±38** (7 digit accuracy) |
+| _double_ | 8 bytes | **-1.7e±308** to **1.7e±308** (15 digit accuracy) |
+| _int_ | 4 bytes | **-2,147,483,648** to **2,147,483,647** |
+| _unsigned int_ | 4 bytes | **0** to **4,294,967,295** |
+| _short int_ | 2 bytes | **-32768** to **32767** |
+| _unsigned short int_ | 4 bytes | **0** to **65535** |
 
 💡 _The **char** data type is actually a numeric data type, with the numbers representing the character values._
 
