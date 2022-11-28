@@ -152,5 +152,12 @@ So far, we have been demonstrating very simple data types, also known as _fundam
 | _bool_ | This holds two types of values, namely **true** or **false** |
 | _char_ | This contains only a single character or single digit number, such as **A**, **x**, **0** or **9** |
 
+The above intrinsic data types may also be declared using _type modifiers_, which further specify how large or small that variable is, or if the variable can store positive and negative numbers as well. For instance, a _long long int_ may use up more storage than a _short int_ and thus may be assigned many more values than a _short int_. An _unsigned int_ can not hold any negative numbers. See the table below to view them:
 
+| Type modifier | Tell me more |
+| ------------- | ------------- |
+| _long_  | Works only with _int_, _float_ and _double_ data types to increase the range of values they can store |
+| _short_ | Works only with _int_ types and decreases the range of values they can store |
+| _signed_ | Works only with _int_ and _char_ types and allows them to represent positive and negative numbers |
+| _unsigned_ | Works only with _int_ and _char_ types and restricts them to only representing positive numbers |
 
