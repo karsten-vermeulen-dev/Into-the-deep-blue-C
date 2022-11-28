@@ -140,5 +140,9 @@ However, if you can, prefer to use the modern style of type casting, i.e., _stat
 number = static_cast<int>(floatNum);
 ```
 
+### Fundamental data types
+
+So far, we have been demonstrating very simple data types, also known as _fundamental data types_, which are built into the _C++_ language and are also known as _built-in_ or _intrinsic types_. They include the following:
+
 
 
