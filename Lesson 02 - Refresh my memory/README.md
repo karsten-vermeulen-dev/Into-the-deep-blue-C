@@ -59,6 +59,8 @@ int number2 = number1;
 int number3(number2);
 ```
 
+### Brace wars
+
 While the above method of initializing is not wrong, a more modern approach would be to use _brace initialization_, like so:
 
 ```cpp
@@ -82,7 +84,7 @@ float floatNum = 10.234f;
 int intNum = floatNum; 
 ```
 
-While this is not serious and will only produce a warning, it might later create runtime bugs that are difficult to track down. Instead, we can use brace initialization that will produce a compiler error and explicitly remind us that we are making a conversion:
+While this is not serious and will only produce a warning, it might later create runtime bugs that are difficult to track down. Instead, we can use _brace initialization_ that will produce a compiler error and explicitly remind us that we are making a conversion:
 
 ```cpp
 float floatNum{ 10.234f };
@@ -90,3 +92,6 @@ float floatNum{ 10.234f };
 //No dice buddy, this ain't gonna work
 int intNum{ floatNum }; 
  ```
+
+💡 _Brace initialization may also be termed **list initialization** and may not always be the solution you want. Again, there are many discussions online pertaining to when, where, how, and why to use them, with many discussions becoming very heated. If you choose to use it, stay consistent in your codebase, unless it cannot be used in a particular situation. For the remainder of the material here, we will revert back to **not** using brace initialization._
+
