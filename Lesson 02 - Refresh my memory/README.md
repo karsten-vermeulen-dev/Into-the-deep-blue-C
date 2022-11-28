@@ -166,3 +166,9 @@ For those of you that are curious as to how much storage each of these variables
 | Data type | Byte size | Value range |
 | ------------- | ------------- | ------------- |
 | _bool_  | 1 byte | **true** or **false** |
+| _char_ | 1 byte | Can store values between **-128** and **127** |
+| _unsigned char_ | 1 byte | Can store values between **0** and **255** |
+
+💡 _The **char** data type is actually a numeric data type, with the numbers representing the character values._
+
+
