@@ -73,7 +73,7 @@ int number2{ number1 };
 int number3{ number2 };
 ```
 
-The great thing about using _brace initialization_ is that the compiler will scream at you if you accidentally cause a _narrowing conversion_, which might occur if the data types are different:
+The great thing about using _brace initialization_ is that the compiler will scream at you if you accidentally cause a _narrowing conversion_, which might occur if the data types are different. Consider the following:
 
 ```cpp
 float floatNum = 10.234f;
@@ -87,6 +87,6 @@ While this is not serious and will only produce a warning, it might later create
 ```cpp
 float floatNum{ 10.234f };
 
-//No way, no dice buddy, ain't gonna work
+//No dice buddy, this ain't gonna work
 int intNum{ floatNum }; 
  ```
