@@ -109,7 +109,7 @@ name = "Karsten";
 
 We can also assign an existing variable to another, like so:
 
-```cpp
+```ruby
 firstNumber = anotherNumber;
 ```
 
@@ -120,5 +120,25 @@ number1 = number2 = number3 = number4;
 ```
 
 💡 _Assignment chaining works from right to left meaning the value of the variable on the right is assigned to all other variables._
+
+When assigning variables of different types to each other a narrowing conversion may again occur, just like when they are initialized. Again, a warning will appear to inform you of this potential problem and we should always heed the warning before it becomes a runtime issue. 
+
+```cpp
+float floatNum = 10.234f;
+int number = floatNum;
+```
+
+To do this, we can cast the variable into the data type we wish to store it as, like so:
+
+```cpp
+number = (int)(floatNum);
+```
+
+However, if you can, prefer to use the modern style of type casting, i.e., _static_cast<>_ instead of the older _C-style_ cast:
+
+```cpp
+number = static_cast<int>(floatNum);
+```
+
 
 
