@@ -161,3 +161,8 @@ The above intrinsic data types may also be declared using _type modifiers_, whic
 | _signed_ | Works only with _int_ and _char_ types and allows them to represent positive and negative numbers |
 | _unsigned_ | Works only with _int_ and _char_ types and restricts them to only representing positive numbers |
 
+For those of you that are curious as to how much storage each of these variables requires as well as what range of values each variable can store, see the comprehensive table below:
+
+| Data type | Byte size | Value range |
+| ------------- | ------------- | ------------- |
+| _bool_  | 1 byte | **true** or **false** |
