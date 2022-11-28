@@ -144,5 +144,13 @@ number = static_cast<int>(floatNum);
 
 So far, we have been demonstrating very simple data types, also known as _fundamental data types_, which are built into the _C++_ language and are also known as _built-in_ or _intrinsic types_. They include the following:
 
+| Data type  | Tell me more |
+| ------------- | ------------- |
+| _int_  | Stands for _integer_ and is a whole number such as **1**, **900** or **-23** |
+| _float_ | This is a _floating-point_ or _real number_ that contains decimal values |
+| _double_ | This is also a real number with double the precision of a _float_ type |
+| _bool_ | This holds two types of values, namely **true** or **false** |
+| _char_ | This contains only a single character or single digit number, such as **A**, **x**, **0** or **9** |
+
 
 
