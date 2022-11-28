@@ -31,4 +31,8 @@ int number1, number2, number3;
 
 💡 _Variable names in C++ are case-sensitive and should always start with a letter, and may contain numbers and underscores thereafter. You should always follow a standard when naming your variables. If you haven't set your own, follow common standards from other developers or the coding standard your employer has likely developed for the team. A general standard for naming variables is to use Camel Casing, i.e., thisIsAVariable_.
 
+### What now?
+
+Once a variable is declared, it should be _**initialized**_ with a value. When declaring variables, their types come in two forms, namely _**fundamental data types**_ and _**object data types**_. Variables can also be classified as _**value types**_ or _**reference types**_. Depending on where in the code the variable is declared in, it will also have a particular _**scope**_. During the course of the program, a variable's value can be altered as and when needed, unless it’s declared as a _**constant**_. 
+
 
