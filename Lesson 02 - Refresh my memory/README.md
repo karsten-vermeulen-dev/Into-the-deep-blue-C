@@ -35,4 +35,58 @@ int number1, number2, number3;
 
 Once a variable is declared, it should be _**initialized**_ with a value. When declaring variables, their types come in two forms, namely _**fundamental data types**_ and _**object data types**_. Variables can also be classified as _**value types**_ or _**reference types**_. Depending on where in the code the variable is declared in, it will also have a particular _**scope**_. During the course of the program, a variable's value can be altered as and when needed, unless it’s declared as a _**constant**_. 
 
+### Initializing variables
 
+When variables are declared they will initially contain random values or garbage data, based on their type. It is always good practise to initialize a variable as soon as it's declared and that is done as follows:
+
+```cpp
+int age = 100;
+char letter = 'k';
+double velocity = 24.5;
+```
+
+You can also declare and initialize variables in one single line, like so:
+
+```cpp
+int number1 = 10, number2 = 20, number3 = 30;
+```
+
+Furthermore, we can initialize variables using existing variables, like so:
+
+```cpp
+int number1 = 1000;
+int number2 = number1;
+int number3(number2);
+```
+
+While the above method of initializing is not wrong, a more modern approach would be to use _brace initialization_, like so:
+
+```cpp
+int age {100};
+char letter {'k'};
+double velocity {24.5};
+
+int number1{ 10 }, number2{ 20 }, number3{ 30 };
+
+int number1{ 1000 };
+int number2{ number1 };
+int number3{ number2 };
+```
+
+The great thing about using _brace initialization_ is that the compiler will scream at you if you accidentally cause a _narrowing conversion_, which might occur if the data types are different:
+
+```cpp
+float floatNum = 10.234f;
+
+//You will now have lost the .234 and the number will be 10
+int intNum = floatNum; 
+```
+
+While this is not serious and will only produce a warning, it might later create runtime bugs that are difficult to track down. Instead, we can use brace initialization that will produce a compiler error and explicitly remind us that we are making a conversion:
+
+```cpp
+float floatNum{ 10.234f };
+
+//No way, no dice buddy, ain't gonna work
+int intNum{ floatNum }; 
+ ```
