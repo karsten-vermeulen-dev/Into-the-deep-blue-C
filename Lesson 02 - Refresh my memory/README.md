@@ -299,5 +299,17 @@ void DoSomething()
 
 💡 _Use global variables wisely and only when absolutely required. It is best practise to keep variable declarations as local as possible because too many global variables will decrease the maintainability of an application and increase what is known as **coupling**._
 
+### Constants
 
+Sometimes, you may want values to remain unchanged throughout the program and for this we use _constants_. These special creatures are declared just like their friendly variable counterparts, except they use the keyword _const_, like so:
+
+```cpp
+const float gravity = 9.87f;
+const double Pi = 3.14159265359;
+```
+
+💡 _It has always been a common convention to use uppercase letters when naming constants (**GRAVITY**), however, in modern times, this is starting to become debatable. You may still see a lot of code out there written in this manner, and there is nothing wrong with this, but again, it depends on the coding standard of the author. I prefer **not** to use capital letters, because **(a)** it's tedious to hold down the **SHIFT** key when spelling these constants, and **(b)** for names with two or more words in them, such as maximumBlastForce, there is the dreaded underscore character I would need to insert to make it read **MAXIMUM_BLAST_FORCE**. Reading **MAXIMUMBLASTFORCE** would give everyone a headache._
+
+Besides creating and using constants to prevent changes to a variable, they also provide other benefits, such as improving the code readability by removing the use of literal values, also known as _magic numbers_. Constants also make the code easier to debug, meaning that only one change is needed instead of many. We can also use a set of constants in the form of an _enumeration_. <br>
+Constants need to be initialized, and from that point onward, their values cannot be altered, else the compiler will generate an error. Alternatively, another method that is commonplace to ensure unchangeable values is to use the preprocessor macro _#define_, which, in a modern _C++_ world, should be avoided if possible.
 
