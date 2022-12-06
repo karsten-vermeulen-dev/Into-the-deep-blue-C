@@ -173,8 +173,12 @@ For those of you that are curious as to how much storage each of these variables
 | _int_ | 4 bytes | **-2,147,483,648** to **2,147,483,647** |
 | _unsigned int_ | 4 bytes | **0** to **4,294,967,295** |
 | _short int_ | 2 bytes | **-32768** to **32767** |
-| _unsigned short int_ | 4 bytes | **0** to **65535** |
+| _unsigned short int_ | 2 bytes | **0** to **65535** |
+| _long int_ | 4 bytes | **-2,147,483,648** to **2,147,483,647** |
+| _unsigned long int_ | 4 bytes | **0** to **4,294,967,295** |
+| _long long int_ | 8 bytes | **-9,223,372,036,854,775,808** to **9,223,372,036,854,775,807** |
+| _unsigned long long int_ | 8 bytes | **0** to **18,446,744,073,709,551,615** |
 
-💡 _The **char** data type is actually a numeric data type, with the numbers representing the character values._
+💡 _The **char** and **bool** data types are actually numeric data types, meaning they store numeric values. For the **char** type this numeric value represents the ASCII code of the stored character. When storing **bool** data, although we conventionally would store **true** or **false**, you could store any 8-bit number in the variable. Any non-zero number stored would be interpreted as **true** and storing a **0** would mean **false**._
 
 _**More coming soon! Didn't have time to finish this off.**_
