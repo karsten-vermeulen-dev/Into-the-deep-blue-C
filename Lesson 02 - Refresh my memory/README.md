@@ -204,3 +204,40 @@ StructType myOwnStruct;
 
 Object types can also be data types that belong to an external library such as the _Standard Library_, with a popular example being the _std::string_ data type. Other types include _vectors_, _fstream_, _maps_, etc. With object types, we can usually perform operations on them, such as finding the length of a _std::string_ by using its _size()_ member function. 
 
+### A very brief look at _std::string_
+
+Let's now take a quick look at the _std::string_ data type and see how we can declare, initialize and store data in a variable of this type.
+
+```cpp
+#include <iostream>
+#include <string>
+
+int main()
+{
+    std::string name = "John Smith";
+    std::cout << "My name is " << name << std::endl;
+}
+```
+
+Outputting the string data to the console is as simple as any other data type, yet inputting is a little tricky. If we use _std::cin_, all whitespace is ignored if multiple words with spaces in between, as only the first word is captured. To alleviate this problem, we could use multiple string variables and capture all words, like so:
+
+```cpp
+std::string firstName, lastName;
+std::cin >> firstName >> lastName;
+std::cout << "My full name is " << firstName << ' ' << lastName << std::endl;
+```
+
+The problem with the above method is that we need to know in advance the number of strings we require and we have to add manual spaces in between when displaying the name. This is very laborious to say the least. A much more preferred method is to use the _getline()_ function, which works as follows:
+
+```cpp
+std::string fullName;
+std::getline(std::cin, fullName);
+std::cout << "My full name is " << fullName << std::endl;
+```
+
+The _getline()_ function makes use of the input object, which is our _std::cin_ stream object, and the variable to store the string in, which in this case is _fullName_.
+
+
+
+
+
