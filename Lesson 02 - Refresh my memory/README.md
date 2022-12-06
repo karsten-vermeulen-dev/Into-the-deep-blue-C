@@ -183,4 +183,24 @@ For those of you that are curious as to how much storage each of these variables
 
 💡 _Because fundmental data types come built into the compiler, different compilers may represent them differently in memory. The type modifier may also be used without the data type to declare a variable. For instance, using **long** would be the same as **long int**. When using **signed** and **unsigned** modifiers, beware of integer wrap around_.
 
-_**More coming soon! Didn't have time to finish this off.**_
+### Object data types
+
+These are data types that are external to the built-in _C++_ types that come with the language. They can also be types you created yourself, such as a _struct_ or _class_ type:
+
+```cpp
+class ClassType
+{
+    //definition...
+};
+
+struct StructType
+{
+    //definition...
+};
+
+ClassType myOwnClass;
+StructType myOwnStruct;
+```
+
+Object types can also be data types that belong to an external library such as the _Standard Library_, with a popular example being the _std::string_ data type. Other types include _vectors_, _fstream_, _maps_, etc. With object types, we can usually perform operations on them, such as finding the length of a _std::string_ by using its _size()_ member function. 
+
