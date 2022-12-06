@@ -397,3 +397,34 @@ We just need to make sure that when assigning values, the exact enum type is spe
 Days myDay = Days::Monday;
 Directions myDirection = Directions::North;
 ```
+
+### Some very special keywords
+
+Before moving on to the next section of this lesson, we will end off with some special _C++_ keywords that can be used with variables and their data types. 
+
+_**sizeof**_ - This determines the size, in bytes, of the variable or data type used: 
+
+```cpp
+int number;
+
+//Determine size of variable
+sizeof(number);
+
+//Determine size of data type
+sizeof(int);
+```
+
+_**auto**_ - This keyword will allow the compiler to determine what data type best suits the variable. (More on this later!)
+
+```cpp
+auto variable = "Jack"; //variable is a const char*
+auto variable = -2;     //variable is an int
+auto variable = 2.45;   //variable is a double
+```
+
+_**typedef**_ - This allows you to substitute your own name in place of the data type’s name: 
+
+```cpp
+typedef unsigned long long VeryLong;
+VeryLong number = 100'000'000;
+```
