@@ -256,3 +256,48 @@ int* number = new int;
 ClassType* myOwnClass = &otherClass;
 std::unique_ptr<SomeType> smartPtr(new SomeType);
 ```
+
+### The scope of a variable
+
+Variables have a certain _scope_ within which they're valid and can be used and this can be classified as either _global scope_ or _local scope_. The scope of a variable is determined based on what block of code it is declared in, and when used outside of this scope, the compiler will not recognise the variable and errors will arise.  <br>
+
+Variables with _global scope_ have the widest scope in a program and are accessible anywhere and everywhere. They are usually declared within header files or outside the _main()_ function in _main.cpp_:
+
+```cpp
+int globalNumber = 999;
+char globalLetter = 'G';
+
+int main()
+{
+    //main stuff
+    //use global variables here
+}
+```
+
+Alternatively, variables that have a _local scope_ are _local_ to a particular block of code and are only accessible within the units they are created in. They exist within functions or any other blocks of code surrounded by _curly braces_ (**{}**) such as _if-else_ statements or _loops_:
+
+```cpp
+for (int i = 0; i < 100; i++)
+{
+    //Do something with the local variable i
+}
+```
+
+Variables in different scopes are independent of each other and are allowed to share the same name. The variable in the inner-most scope takes precedence over the outer one. Looking at the below code snippet, the first declared _number_ variable is local to the function and will cease to exist when the function ends. It has a different scope to the _number_ variable declared within the _while_ loop:
+
+```cpp
+void DoSomething()
+{
+    int number = -1234;
+
+    while (true)
+    {
+        int number = 1234;
+    }
+}
+```
+
+💡 _Use global variables wisely and only when absolutely required. It is best practise to keep variable declarations as local as possible because too many global variables will decrease the maintainability of an application and increase what is known as **coupling**._
+
+
+
