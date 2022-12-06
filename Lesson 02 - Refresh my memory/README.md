@@ -181,4 +181,6 @@ For those of you that are curious as to how much storage each of these variables
 
 💡 _The **char** and **bool** data types are actually numeric data types, meaning they store numeric values. For the **char** type this numeric value represents the ASCII code of the stored character. When storing **bool** data, although we conventionally would store **true** or **false**, you could store any 8-bit number in the variable. Any non-zero number stored would be interpreted as **true** and storing a **0** would mean **false**._
 
+💡 _Because fundmental data types come built into the compiler, different compilers may represent them differently in memory. The type modifier may also be used without the data type to declare a variable. For instance, using **long** would be the same as **long int**. When using **signed** and **unsigned** modifiers, beware of integer wrap around_.
+
 _**More coming soon! Didn't have time to finish this off.**_
