@@ -313,3 +313,87 @@ const double Pi = 3.14159265359;
 Besides creating and using constants to prevent changes to a variable, they also provide other benefits, such as improving the code readability by removing the use of literal values, also known as _magic numbers_. Constants also make the code easier to debug, meaning that only one change is needed instead of many. We can also use a set of constants in the form of an _enumeration_. <br>
 Constants need to be initialized, and from that point onward, their values cannot be altered, else the compiler will generate an error. Alternatively, another method that is commonplace to ensure unchangeable values is to use the preprocessor macro _#define_, which, in a modern _C++_ world, should be avoided if possible.
 
+### Enumerations
+
+This is a range of constant integer values, also known as _enumerators_ which allow us to create our own range of values, by giving each enumerator a specific name. To create an enumeration, we do so using the _enum_ keyword, like so:
+
+```cpp
+enum Directions
+{
+    North,
+    South,
+    East,
+    West
+};
+```
+
+Now, we can go ahead and create a variable of the type _Directions_ and use it like any other:
+
+```cpp
+Directions myDirection = East;
+```
+
+When we create enumerations, the very first enumerator will be **0** by default. All subsequent values will be **1**, **2**, **3**, etc. We can also explicitly set a value for the enumerators. Alternatively, only the first enumerator can be set, and the others will follow suit with incrementations of **1**. 
+
+```cpp
+enum Directions
+{
+    North = 1,
+    South = 2,
+    East = 4,
+    West = 8
+};
+```
+
+While the above works just fine, a more modern approach to defining enums is to use an _enum class_. Consider the following enum definitions:
+
+```cpp
+enum Days
+{
+    Monday,
+    Tuesday,
+    Wednesday,
+    Thursday,
+    Friday,
+    Saturday,
+    Sunday
+};
+
+enum Directions
+{
+    North,
+    South,
+    East,
+    West
+};
+```
+
+Without an _enum class_ in place, the enumerators can be used interchangeably, which can lead to confusing logic in the code:
+
+```cpp
+Directions myDirection = North;
+
+if (myDirection == Monday)
+{
+    //This will actually run because North and Monday are 0
+}
+```
+
+To define an _enum class_, simply add the _class_ keyword in the definition, like so:
+
+```cpp
+enum class Directions
+{
+    North = 1,
+    South = 2,
+    East = 4,
+    West = 8
+};
+```
+
+We just need to make sure that when assigning values, the exact enum type is specified as well, like so:
+
+```cpp
+Days myDay = Days::Monday;
+Directions myDirection = Directions::North;
+```
